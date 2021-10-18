@@ -162,7 +162,7 @@
     margin: 0%;
     padding: 0%;
 
-    background:#FFFFFF;
+    background:#531010;
   }
   .footer{
     margin: 0;
