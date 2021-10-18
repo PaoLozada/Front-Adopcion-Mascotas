@@ -76,10 +76,10 @@ methods: {
         padding: 0%;
         height: 50%;
         width: 50%;
-    
+        flex-direction: row;
         display: flex;
-        
-        
+        justify-content: right;
+        align-items: center;
     }
 
     .container_logIn_user {
@@ -94,14 +94,13 @@ methods: {
         align-items: center;
     }
     .parrafo {
-        display: flex;
         border: 3px solid  #dde3e9;
         border-radius: 10px;
         width: 150%;
         height: 40%;
         font-size: 200px;
         display: flex;
-        flex-direction: column;
+        
         justify-content: right;
         align-items: center;
         color:honeydew;
