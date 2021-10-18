@@ -69,8 +69,8 @@ methods: {
         width: 50%;
     
         display: flex;
-        justify-content: left;
-        align-items: right;
+        justify-content: right;
+        align-items: center;
     }
 
     .container_logIn_user {
@@ -81,7 +81,7 @@ methods: {
         
         display: flex;
         flex-direction: column;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
     }
 
@@ -93,12 +93,12 @@ methods: {
     }
 
     .logIn_user form{
-        width: 50%;
+        width: 30%;
         
     }
 
     .logIn_user input{
-        height: 40px;
+        height: 20px;
         width: 100%;
 
         box-sizing: border-box;
