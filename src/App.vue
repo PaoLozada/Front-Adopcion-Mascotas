@@ -162,7 +162,7 @@
     margin: 0%;
     padding: 0%;
 
-    background: "https://i.pinimg.com/474x/74/ef/d3/74efd3bd07df382e9c1f859b0863cc57.jpg" ;
+    background:#FFFFFF;
   }
   .footer{
     margin: 0;
@@ -171,7 +171,7 @@
     height: 10vh;
     min-height: 100px; 
 
-    background-color: #FFFFFF;
+    background-color: #550606;
     color: #360b47;
 
   }
