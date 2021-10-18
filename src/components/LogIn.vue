@@ -2,8 +2,9 @@
 
     <div class="logIn_user">
         <div class="container_logIn_user">
-            <h2>Iniciar sesión</h2>
             <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="200" height="200" >
+            <h2>Iniciar sesión</h2>
+            
            
             <form v-on:submit.prevent="processLogInUser" >
                 <label for="username">Username</label><input id="username" name="username" type="text" v-model="user.username" placeholder="Username">
@@ -80,7 +81,7 @@ methods: {
         
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
     }
 
@@ -92,7 +93,7 @@ methods: {
     }
 
     .logIn_user form{
-        width: 70%;
+        width: 20%;
         
     }
 
