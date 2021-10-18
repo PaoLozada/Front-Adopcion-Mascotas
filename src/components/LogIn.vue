@@ -75,17 +75,15 @@ methods: {
         margin: 0;
         padding: 0%;
         height: 60%;
-        width: 80%;
+        width: 100%;
         
-        display: flex;
-        justify-content: right;
-        align-items: center;
+        
     }
 
     .container_logIn_user {
         border: 3px solid  #dde3e9;
         border-radius: 10px;
-        width: 50%;
+        width: 60%;
         height: 100%;
         
         display: flex;
