@@ -99,7 +99,7 @@ methods: {
         
         width: 80%;
         height: 50%;
-        font-size: 20px;
+        font-size: 40px;
     
         display: flex;
         padding: 0%;
