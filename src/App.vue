@@ -15,6 +15,9 @@
         <button v-if="!is_auth" v-on:click="loadCandidatoIn" > Quiero Adoptar </button>
       </nav>
     </div>
+    <Body>
+      
+    </Body>
    
 
     <div class="main-component">
@@ -140,7 +143,7 @@
     font-size: 10px;
   }
   .header nav button{
-    color: #3f0b70;
+    color: #faf8fc;
     background: #283747;
     border: 1px solid #111111;
 
