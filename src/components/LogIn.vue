@@ -4,11 +4,11 @@
         <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="700" height="700">
        
        <div class ="parrarfo">
-            <p>"En la mayoría de los casos, 
+            <p>En la mayoría de los casos, 
                 adoptar significa darle una segunda oportunidad
                  a un animal que ha sufrido un proceso de abandono, y en ocasiones maltrato.
                   Acogerlo en tu casa de por vida y darle la estabilidad, los cuidados y el 
-                  cariño que necesita va a ayudarlo a que recupere su confianza y su autoestima."</p>
+                  cariño que necesita va a ayudarlo a que recupere su confianza y su autoestima.</p>
 
         </div>
        
@@ -74,8 +74,8 @@ methods: {
     .logIn_user{
         margin: 0;
         padding: 0%;
-        height: 50%;
-        width: 100%;
+        height: 60%;
+        width: 80%;
         
         display: flex;
         justify-content: right;
@@ -90,14 +90,14 @@ methods: {
         
         display: flex;
         flex-direction: column;
-        justify-content: left;
+        justify-content: center;
         align-items: center;
     }
     .parrafo {
         
         width: 100%;
         height: 100%;
-        font-size: 500px;
+        font-size: 200px;
     
         display: flex;
         padding: 20%;
@@ -114,7 +114,7 @@ methods: {
     }
 
     .logIn_user form{
-        width: 30%;
+        width: 50%;
         
     }
 
@@ -137,7 +137,7 @@ methods: {
         border: 1px solid #E5E7E9;
 
         border-radius: 5px;
-        padding: 10px 25px;
+        padding: 0px 5px;
         margin: 5px 0;
     }
     .logIn_user label{
