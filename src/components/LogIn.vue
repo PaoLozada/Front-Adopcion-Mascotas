@@ -94,6 +94,7 @@ methods: {
         align-items: center;
     }
     .parrafo {
+        display: flex;
         border: 3px solid  #dde3e9;
         border-radius: 10px;
         width: 150%;
