@@ -1,8 +1,9 @@
 <template>
 
     <div class="logIn_user">
+       <div class=imagen_LogIn_user>
         <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="700" height="700">
-       
+       </div>
        <div class ="parrafo">
             <p>En la mayoría de los casos, 
                 adoptar significa darle una segunda oportunidad
@@ -101,7 +102,7 @@ methods: {
         font-size: 20px;
     
         display: flex;
-        padding: 20%;
+        padding: 1%;
         justify-content: center;
         align-items: center;
         color:honeydew;
