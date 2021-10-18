@@ -2,7 +2,7 @@
 
     <div class="signUp_user">
         <div class="container_signUp_user">
-            <h2>Registrarse</h2>
+            <h2>Registrar Usuario</h2>
 
             <form v-on:submit.prevent="processSignUp" >
                 <input type="text" v-model="user.username" placeholder="Username">
@@ -89,7 +89,7 @@ export default {
     }
 
     .container_signUp_user {
-        border: 3px solid  #283747;
+        border: 3px solid  #e8eaec;
         border-radius: 10px;
         width: 25%;
         height: 60%;
@@ -101,7 +101,7 @@ export default {
     }
 
     .signUp_user h2{
-        color: #283747;
+        color: #f4f6f8;
 
     }
 
@@ -137,7 +137,7 @@ export default {
     .signUp_user button:hover{
         color: #E5E7E9;
         background: crimson;
-        border: 1px solid #283747;
+        border: 1px solid #93d356;
     }
 
 </style>

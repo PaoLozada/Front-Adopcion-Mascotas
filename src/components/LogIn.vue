@@ -74,8 +74,11 @@ methods: {
     .logIn_user{
         margin: 0;
         padding: 0%;
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
         
     }
@@ -83,8 +86,8 @@ methods: {
     .container_logIn_user {
         border: 3px solid  #dde3e9;
         border-radius: 10px;
-        width: 40%;
-        height: 30%;
+        width: 25%;
+        height: 60%;
         
         display: flex;
         flex-direction: column;
@@ -94,7 +97,7 @@ methods: {
     .parrafo {
         
         width: 40%;
-        height: 100%;
+        height: 50%;
         font-size: 200px;
     
         display: flex;
@@ -112,7 +115,7 @@ methods: {
     }
 
     .logIn_user form{
-        width: 20%;
+        width: 70%;
         
     }
 
@@ -136,7 +139,7 @@ methods: {
 
         border-radius: 5px;
         padding: 0px 5px;
-        margin: 5px 0;
+        margin: 5px 0 25px 0;
     }
     .logIn_user label{
         color: rgb(241, 238, 238);
