@@ -96,9 +96,9 @@ methods: {
     }
     .parrafo {
         
-        width: 40%;
+        width: 80%;
         height: 50%;
-        font-size: 50px;
+        font-size: 20px;
     
         display: flex;
         padding: 20%;
