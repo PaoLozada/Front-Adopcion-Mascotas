@@ -158,7 +158,7 @@
 
   
   .main-component{
-    height: 100vh;
+    height: 75vh;
     margin: 0%;
     padding: 0%;
 
