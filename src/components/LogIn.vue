@@ -83,8 +83,8 @@ methods: {
     .container_logIn_user {
         border: 3px solid  #dde3e9;
         border-radius: 10px;
-        width: 60%;
-        height: 100%;
+        width: 40%;
+        height: 30%;
         
         display: flex;
         flex-direction: column;
@@ -93,7 +93,7 @@ methods: {
     }
     .parrafo {
         
-        width: 100%;
+        width: 40%;
         height: 100%;
         font-size: 200px;
     
