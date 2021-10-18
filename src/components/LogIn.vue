@@ -1,6 +1,7 @@
 <template>
 
     <div class="logIn_user">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…CPG7GLL6HuzS/at5qAAqLEYWTNT4BK7xbkGqiUaLUkz//2Q==" width="500" height="500">
         <div class="container_logIn_user">
             
             <h2>Iniciar sesión</h2>
@@ -93,7 +94,7 @@ methods: {
     }
 
     .logIn_user form{
-        width: 30%;
+        width: 50%;
         
     }
 

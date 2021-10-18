@@ -11,8 +11,8 @@
         <button v-if="is_auth" v-on:click="logOut"> Cerrar Sesión </button>
         <button v-if="is_auth" v-on:click="loadHome"> Inicio </button>
         <button v-if="!is_auth" v-on:click="loadLogIn" > Principal </button>
-        <button v-if="!is_auth" v-on:click="loadSignUp" > Registrarse </button>
-        <button v-if="!is_auth" v-on:click="loadMascotaIn" > Registrar_Mascotas </button>
+        <button v-if="!is_auth" v-on:click="loadSignUp" > Registrar Usuario </button>
+        <button v-if="!is_auth" v-on:click="loadMascotaIn" > Registrar Mascotas </button>
         <button v-if="!is_auth" v-on:click="loadCandidatoIn" > Quiero Adoptar </button>
       </nav>
     </div>
@@ -162,7 +162,7 @@
     margin: 0%;
     padding: 0%;
 
-    background: #2e0657 ;
+    background: "https://i.pinimg.com/474x/74/ef/d3/74efd3bd07df382e9c1f859b0863cc57.jpg" ;
   }
   .footer{
     margin: 0;
