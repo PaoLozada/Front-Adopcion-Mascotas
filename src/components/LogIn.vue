@@ -102,8 +102,8 @@ methods: {
         font-size: 20px;
     
         display: flex;
-        padding: 1%;
-        justify-content: center;
+        padding: 0%;
+        justify-content: right;
         align-items: center;
         color:honeydew;
     }
