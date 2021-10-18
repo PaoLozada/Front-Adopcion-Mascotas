@@ -26,10 +26,10 @@
     }
     .greetings h1{
         font-size: 50px;
-        color: #283747;
+        color: #f0f3f7;
     }
     .greetings span{
-        color: crimson;
+        color: rgb(20, 220, 37);
         font-weight: bold;
     }
 </style>

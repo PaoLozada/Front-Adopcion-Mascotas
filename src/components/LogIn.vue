@@ -5,6 +5,7 @@
         <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="500" height="500">
        </div>
        <div class ="parrafo">
+           <h3> ¿POR QUÉ ADOPTAR?</h3>
             <p>En la mayoría de los casos, 
                 adoptar significa darle una segunda oportunidad
                  a un animal que ha sufrido un proceso de abandono, y en ocasiones maltrato.
@@ -99,8 +100,8 @@ methods: {
         
         width: 80%;
         height: 50%;
-        font-size: 25px;
-        padding-right: 20%;
+        font-size: 28px;
+        padding-right: 30%;
         display: flex;
         
         justify-content: center;
@@ -112,6 +113,11 @@ methods: {
        
     .logIn_user h2{
         color: #eef1f5;
+
+    }
+    .logIn_user h3{
+        color: #eef1f5;
+        font-size: 35px;
 
     }
 
