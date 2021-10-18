@@ -185,24 +185,21 @@
   }
   .nombres_footer{
     display: flex;
+    width: 50%;
     justify-content: left;
     align-items: left;
     flex-direction: column;
   }
 
   .footer h2{
-    width: 50%;
-    height: 20%;
-    font-size: 20;
+   
+    font-size: 10;
     
   }
   .footer h3{
-    width: 50%;
-    height: 10%;
-    font-size: 10;
-    display: flex;
-    justify-content: left;
-    align-items: left;
+    
+    font-size: 5;
+    
   }
 
 </style>
