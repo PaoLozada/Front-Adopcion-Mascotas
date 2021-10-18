@@ -20,9 +20,6 @@
                 <br>
 
                 <input type="number" v-model="candidatos.Edad" placeholder="Edad">
-                <br>
-
-                <input type="number" v-model="candidatos.Resultado_Prueba" placeholder="Resutado_Prueba">
                 
                 <button type="submit">Enviar Informacón</button>
             </form>
