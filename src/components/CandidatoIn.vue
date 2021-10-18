@@ -44,7 +44,7 @@ export default {
                 Numero_Contacto: "",
                 Email: "",
                 Edad: 0,
-                Resultado_Prueba:0
+                
                
             }
         }
