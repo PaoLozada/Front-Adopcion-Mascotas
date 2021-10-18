@@ -127,8 +127,9 @@
     align-items: center; 
   } 
   .header h1{
-    width: 40%; 
+    width: 10%; 
     text-align: right; 
+    font-size: 30px;
   }
 
     .header nav {
