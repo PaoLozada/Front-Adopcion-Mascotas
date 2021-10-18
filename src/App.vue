@@ -127,7 +127,7 @@
     align-items: center; 
   } 
   .header h1{
-    width: 20%; 
+    width: 40%; 
     text-align: right; 
   }
 
