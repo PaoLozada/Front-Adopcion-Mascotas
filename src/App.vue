@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app">
     <div class="header">
-        <img src="https://e7.pngegg.com/pngimages/761/75/png-clipart-the-dog-will-laugh-animal-corgi.png" width="200" height="200" >
+        <img src="https://www.pngfind.com/pngs/m/19-196122_pata-de-cachorro-png-transparent-png.png" width="150" height="150" >
         <h1>Adopta un Cachorro</h1>
         <nav>
         <button v-if="is_auth" > Inicio </button>
