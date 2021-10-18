@@ -83,8 +83,19 @@ methods: {
         border: 3px solid  #dde3e9;
         border-radius: 10px;
         width: 25%;
-        height: 60%;
+        height: 200%;
         
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+    }
+    .parrafo {
+        border: 3px solid  #dde3e9;
+        border-radius: 10px;
+        width: 50%;
+        height: 40%;
+        font-size: medium;
         display: flex;
         flex-direction: column;
         justify-content: right;
