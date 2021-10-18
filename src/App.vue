@@ -127,9 +127,9 @@
     align-items: center; 
   } 
   .header h1{
-    width: 10%; 
+    width: 20%; 
     text-align: right; 
-    font-size: 30px;
+    
   }
 
     .header nav {
@@ -140,7 +140,7 @@
     justify-content: space-around;
     align-items: center;
 
-    font-size: 10px;
+    font-size: 50px;
   }
   .header nav button{
     color: #faf8fc;
