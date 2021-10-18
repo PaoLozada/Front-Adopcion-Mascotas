@@ -151,14 +151,14 @@
   }
 
   .header nav button:hover{
-    color: #3f0b70;
+    color: #22063b;
     background: #E5E7E9;
     border: 1px solid #111111;
   }
 
   
   .main-component{
-    height: 75vh;
+    height: 100vh;
     margin: 0%;
     padding: 0%;
 

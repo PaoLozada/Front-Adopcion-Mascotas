@@ -69,12 +69,12 @@ methods: {
         width: 50%;
     
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
     }
 
     .container_logIn_user {
-        border: 3px solid  #283747;
+        border: 3px solid  #dde3e9;
         border-radius: 10px;
         width: 25%;
         height: 60%;
