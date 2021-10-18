@@ -101,7 +101,7 @@ methods: {
         width: 80%;
         height: 50%;
         font-size: 28px;
-        padding-right: 30%;
+        padding-right: 20%;
         display: flex;
         flex-direction: column;
         justify-content: center;

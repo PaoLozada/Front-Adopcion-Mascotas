@@ -1,7 +1,7 @@
 <template>
     <div class="mascotaIn_user">
         <div class=imagen_mascotaIn>
-        <img src="https://e7.pngegg.com/pngimages/18/555/png-clipart-puppy-dog-training-cat-veterinarian-puppy-dogs-mammal-carnivoran.png" width="500" height="500">
+        <img src="https://todoanimales.org/imagenes/labrador-cachorros.png" width="500" height="500">
        </div>
 
         <div class="container_MascotaIn_mascota">
