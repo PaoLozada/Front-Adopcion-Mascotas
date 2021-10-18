@@ -98,7 +98,7 @@ methods: {
         
         width: 40%;
         height: 50%;
-        font-size: 200px;
+        font-size: 50px;
     
         display: flex;
         padding: 20%;
