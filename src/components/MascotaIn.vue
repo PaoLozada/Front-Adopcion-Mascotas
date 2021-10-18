@@ -50,7 +50,6 @@ export default {
             )
                 .then((result) => {
                     let dataMascotaIn = {
-                        username: this.user.username,
                         Nombre: this.mascotas.Nombre,
                         Edad: this.mascotas.Edad,
                         Disponibilidad: this.mascotas.Disponibilidad
