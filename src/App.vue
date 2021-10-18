@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app">
     <div class="header">
-        <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="200" height="200" >
+        <img src="https://e7.pngegg.com/pngimages/761/75/png-clipart-the-dog-will-laugh-animal-corgi.png" width="200" height="200" >
         <h1>Adopta un Cachorro</h1>
         <nav>
         <button v-if="is_auth" > Inicio </button>

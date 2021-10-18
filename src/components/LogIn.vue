@@ -1,7 +1,7 @@
 <template>
 
     <div class="logIn_user">
-        <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="500" height="300">
+        <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="700" height="700">
         <div class="container_logIn_user">
             
             <h2>Iniciar sesión</h2>
