@@ -94,14 +94,14 @@ methods: {
         align-items: center;
     }
     .parrafo {
-        border: 3px solid  #dde3e9;
-        border-radius: 10px;
-        width: 150%;
-        height: 40%;
-        font-size: 200px;
-        display: flex;
         
-        justify-content: right;
+        width: 100%;
+        height: 100%;
+        font-size: 500px;
+    
+        display: flex;
+        padding: 20%;
+        justify-content: center;
         align-items: center;
         color:honeydew;
     }
