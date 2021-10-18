@@ -118,7 +118,7 @@ export default {
         padding: 10px 20px;
         margin: 5px 0;
 
-        border: 1px solid #283747;
+        border: 1px solid #f4f8fc;
     }
 
     .signUp_user button{
@@ -126,7 +126,7 @@ export default {
         height: 40px;
 
         color: #E5E7E9;
-        background: #283747;
+        background: #1b8d37;
         border: 1px solid #E5E7E9;
 
         border-radius: 5px;
@@ -136,7 +136,7 @@ export default {
 
     .signUp_user button:hover{
         color: #E5E7E9;
-        background: crimson;
+        background: rgb(115, 241, 132);
         border: 1px solid #93d356;
     }
 

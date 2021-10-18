@@ -102,7 +102,7 @@ methods: {
         font-size: 40px;
         padding-left: 30%;
         display: flex;
-        padding: 0%;
+        
         justify-content: right;
         align-items: center;
         color:honeydew;
