@@ -116,7 +116,8 @@
     width: 100%; 
     height: 10vh; 
     min-height: 100px; 
-    background-color: https://e7.pngegg.com/pngimages/924/444/png-clipart-black-animal-footprints-black-animal.png; 
+    background-color: rgb(250, 249, 249); 
+    background-image: "https://e7.pngegg.com/pngimages/924/444/png-clipart-black-animal-footprints-black-animal.png";
     color: rgb(51, 7, 102); 
     display: flex; 
     justify-content: space-between; 

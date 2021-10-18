@@ -2,7 +2,7 @@
 
     <div class="logIn_user">
        <div class=imagen_LogIn_user>
-        <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="500" height="500">
+        <img src="https://e7.pngegg.com/pngimages/924/444/png-clipart-black-animal-footprints-black-animal.png" width="500" height="500">
        </div>
        <div class ="parrafo">
             <p>En la mayoría de los casos, 
@@ -99,7 +99,7 @@ methods: {
         
         width: 80%;
         height: 50%;
-        font-size: 40px;
+        font-size: 25px;
         padding-right: 20%;
         display: flex;
         
