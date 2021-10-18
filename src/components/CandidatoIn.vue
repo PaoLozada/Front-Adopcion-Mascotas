@@ -16,7 +16,7 @@
                 <input type="text" v-model="candidatos.Numero_Contacto" placeholder="Numero_Contacto">
                 <br>
 
-                <input type="email" v-model="candidatos.Email" placeholder="Email">
+                <input type="text" v-model="candidatos.Email" placeholder="Email">
                 <br>
 
                 <input type="number" v-model="candidatos.Edad" placeholder="Edad">
