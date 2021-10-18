@@ -120,7 +120,7 @@
     width: 100%; 
     height: 10vh; 
     min-height: 100px; 
-    background-color: #FFFFFF; 
+    background-color: "https://i.pinimg.com/474x/74/ef/d3/74efd3bd07df382e9c1f859b0863cc57.jpg"; 
     color: rgb(51, 7, 102); 
     display: flex; 
     justify-content: space-between; 
@@ -142,7 +142,7 @@
     font-size: 10px;
   }
   .header nav button{
-    color: "https://i.pinimg.com/474x/74/ef/d3/74efd3bd07df382e9c1f859b0863cc57.jpg";
+    color: #faf8fc;
     background: #283747;
     border: 1px solid #111111;
 
