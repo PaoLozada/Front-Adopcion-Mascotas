@@ -36,7 +36,7 @@
         <h3>Paola Andrea Lozada G.</h3>
       </div>
       <div class= footer_img>
-        <img src="http://cdn.ilovefreesoftware.com/wp-content/uploads/2016/10/feat-3.png" width="10" height="10">
+        <img src="http://cdn.ilovefreesoftware.com/wp-content/uploads/2016/10/feat-3.png" width="20" height="20">
       </div>
     </div>
   </div>
@@ -192,13 +192,13 @@
 
   .footer h2{
     width: 50%;
-    height: 100%;
+    height: 20%;
     font-size: 20;
     
   }
   .footer h3{
     width: 50%;
-    height: 100%;
+    height: 10%;
     font-size: 10;
     display: flex;
     justify-content: left;
