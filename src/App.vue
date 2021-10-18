@@ -17,11 +17,12 @@
     </div>
 
     <div class="main-component">
-      <router-view  
+      <router-view 
+        v-on:completedCandidatoIn="completedCandidatoIn"
         v-on:completedLogIn="completedLogIn"
         v-on:completedSignUp="completedSignUp"
         v-on:completedMascotaIn="completedMascotaIn"
-        v-on:completedCandidatoIn="completedCandidatoIn"
+        
         v-on:logOut="logOut"
       >
       </router-view>
