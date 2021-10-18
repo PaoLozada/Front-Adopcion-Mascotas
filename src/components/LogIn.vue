@@ -70,7 +70,7 @@ methods: {
     
         display: flex;
         justify-content: left;
-        align-items: center;
+        align-items: right;
     }
 
     .container_logIn_user {
@@ -81,7 +81,7 @@ methods: {
         
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
     }
 

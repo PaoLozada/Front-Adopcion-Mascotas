@@ -137,7 +137,7 @@
 
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: right;
 
     font-size: 10px;
   }
