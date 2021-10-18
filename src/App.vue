@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="app">
-    <img src= "https://w7.pngwing.com/pngs/103/703/png-transparen…og-puppy-footprints-miscellaneous-animals-paw.png" width="30" height="30">
+    <img src= "https://e7.pngegg.com/pngimages/924/444/png-clipart-black-animal-footprints-black-animal.png" width="150" height="150">
     <div class="header">
         <img src="https://images.vexels.com/media/users/3/236182/isolated/preview/ad61cf5b323286677b8bd8c48c7c6e94-cabeca-de-cachorro-yorkshire-terrier-desenhada-a-mao.png" width="150" height="150" >
         <h1>Adopta un Cachorro</h1>
