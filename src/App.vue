@@ -91,7 +91,9 @@
         this.completedLogIn(data);
       },
       completedMascotaIn: function(data) {},
-      completedCandidatoIn: function(data) {}
+      completedCandidatoIn: function(data) {
+        alert("Datos enviados con exito");
+      }
     },
 
 
