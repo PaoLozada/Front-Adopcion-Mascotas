@@ -100,7 +100,7 @@ methods: {
         width: 80%;
         height: 50%;
         font-size: 40px;
-        padding-left: 30%;
+        padding-right: 20%;
         display: flex;
         
         justify-content: right;

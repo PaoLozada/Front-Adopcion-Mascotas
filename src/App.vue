@@ -125,10 +125,10 @@
   .header h1{
     width: 20%; 
     text-align: right; 
-    
+    font-size: xx-large;
   }
 
-    .header nav {
+  .header nav {
     height: 100%;
     width: 20%;
 
