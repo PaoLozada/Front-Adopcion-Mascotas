@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="app">
-    <img src= "https://e7.pngegg.com/pngimages/924/444/png-clipart-black-animal-footprints-black-animal.png" width="150" height="150">
     <div class="header">
         <img src="https://images.vexels.com/media/users/3/236182/isolated/preview/ad61cf5b323286677b8bd8c48c7c6e94-cabeca-de-cachorro-yorkshire-terrier-desenhada-a-mao.png" width="150" height="150" >
         <h1>Adopta un Cachorro</h1>
@@ -117,7 +116,7 @@
     width: 100%; 
     height: 10vh; 
     min-height: 100px; 
-    background-color: rgb(250, 249, 249); 
+    background-color: https://e7.pngegg.com/pngimages/924/444/png-clipart-black-animal-footprints-black-animal.png; 
     color: rgb(51, 7, 102); 
     display: flex; 
     justify-content: space-between; 
