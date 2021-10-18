@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app">
     <div class="header">
-        <img src="https://www.pngfind.com/pngs/m/19-196122_pata-de-cachorro-png-transparent-png.png" width="150" height="150" >
+        <img src="https://images.vexels.com/media/users/3/236182/isolated/preview/ad61cf5b323286677b8bd8c48c7c6e94-cabeca-de-cachorro-yorkshire-terrier-desenhada-a-mao.png" width="150" height="150" >
         <h1>Adopta un Cachorro</h1>
         <nav>
         <button v-if="is_auth" > Inicio </button>
