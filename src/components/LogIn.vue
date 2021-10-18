@@ -85,8 +85,8 @@ methods: {
     .container_logIn_user {
         border: 3px solid  #dde3e9;
         border-radius: 10px;
-        width: 25%;
-        height: 200%;
+        width: 60%;
+        height: 50%;
         
         display: flex;
         flex-direction: column;
@@ -96,9 +96,9 @@ methods: {
     .parrafo {
         border: 3px solid  #dde3e9;
         border-radius: 10px;
-        width: 50%;
+        width: 150%;
         height: 40%;
-        font-size: medium;
+        font-size: 200px;
         display: flex;
         flex-direction: column;
         justify-content: right;
