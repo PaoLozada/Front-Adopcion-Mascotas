@@ -27,12 +27,18 @@
     </div>
 
     <div class="footer">
-      <div class nombres_footer>
+      <div class = "nombres_footer">
         <h2>Grupo2 P51</h2>
-        
+        <div class = "contacto">
+         <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" width="50" height="50">
+         <p>3118546547-30185479654</p>
+        </div>
       </div>
-      <div class= footer_img>
-        <img src="http://cdn.ilovefreesoftware.com/wp-content/uploads/2016/10/feat-3.png" width="20" height="20">
+      <div class= "footer_img">
+        <img src="https://png.pngtree.com/png-clipart/20180518/ourlarge/pngtree-instagram-icon-instagram-logo-png-image_3571406.png" width="50" height="50">
+        <img src="http://assets.stickpng.com/images/584ac2ef3ac3a570f94a666e.png" width="50" height="50">
+        <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" width="50" height="50">
+
       </div>
     </div>
   </div>
@@ -133,6 +139,7 @@
     width: 20%; 
     text-align: right; 
     font-size: xx-large;
+    font-size: 100px;
   }
 
   .header nav {
@@ -175,7 +182,7 @@
     height: 10vh;
     min-height: 100px; 
     flex-direction: row;
-    background-color: #f3eded;
+    background-color: #ffffff;
     color: #360b47;
 
   }
@@ -183,19 +190,23 @@
     display: flex;
     width: 50%;
     justify-content: left;
-    align-items: center;    
+    align-items: center; 
+    flex-direction: column;   
   }
-
+  .contacto{
+    flex-direction: row;
+  }
   .footer h2{
    
-    font-size: 20;
+    font-size: 50;
     
   }
   .footer_img{
     display: flex;
     width: 50%;
     justify-content: right;
-    align-items: center;   
+    align-items: center;  
+    flex-direction: row; 
   }
   
 
