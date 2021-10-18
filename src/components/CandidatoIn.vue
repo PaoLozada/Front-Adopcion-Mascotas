@@ -43,8 +43,7 @@ export default {
                 Direccion: "",
                 Numero_Contacto: "",
                 Email: "",
-                Edad: 0,
-                
+                Edad: 0                
                
             }
         }
@@ -55,7 +54,7 @@ export default {
         processCandidatoIn: function(){
             axios.post(
                 "https://adopcionesmascotas.herokuapp.com/candidatos/", 
-                this.user,  
+                this.candidatos,  
                 {headers: {}}
             )
                 .then((result) => {
