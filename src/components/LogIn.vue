@@ -1,7 +1,7 @@
 <template>
 
     <div class="logIn_user">
-        <img src="https://t1.ea.ltmcdn.com/es/images/5/0/6/img_huesos_para_perros_cachorros_4605_600.jpg" width="500" height="300">
+        <img src="https://i.pinimg.com/474x/74/ef/d3/74efd3bd07df382e9c1f859b0863cc57.jpg" width="500" height="300">
         <div class="container_logIn_user">
             
             <h2>Iniciar sesión</h2>
