@@ -75,7 +75,7 @@ methods: {
         margin: 0;
         padding: 0%;
         height: 50%;
-        width: 250%;
+        width: 100%;
         
         display: flex;
         justify-content: right;
