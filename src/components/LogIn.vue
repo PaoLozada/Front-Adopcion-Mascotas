@@ -1,7 +1,7 @@
 <template>
 
     <div class="logIn_user">
-        <img src="https://i.pinimg.com/474x/74/ef/d3/74efd3bd07df382e9c1f859b0863cc57.jpg" width="500" height="300">
+        <img src="https://e7.pngegg.com/pngimages/18/555/png-clipart…cat-veterinarian-puppy-dogs-mammal-carnivoran.png" width="500" height="300">
         <div class="container_logIn_user">
             
             <h2>Iniciar sesión</h2>
