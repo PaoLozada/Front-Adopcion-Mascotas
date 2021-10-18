@@ -74,8 +74,8 @@ methods: {
     .logIn_user{
         margin: 0;
         padding: 0%;
-        height: 50%;
-        width: 50%;
+        height: 500%;
+        width: 500%;
     
         display: flex;
         justify-content: right;
