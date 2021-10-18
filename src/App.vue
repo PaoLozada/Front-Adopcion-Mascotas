@@ -28,6 +28,14 @@
 
     <div class="footer">
       <h2>Grupo2 P51</h2>
+      <h3>Alexandra Veloza</h3>
+      <h3>Luis Almanza</h3>
+      <h3>Jaime </h3>
+      <h3>Yujak Velez</h3>
+      <h3>Paola Andrea Lozada G.</h3>
+       <div class= footer_img>
+        <img src="http://cdn.ilovefreesoftware.com/wp-content/uploads/2016/10/feat-3.png">
+      </div>
     </div>
   </div>
 </template>
@@ -168,19 +176,27 @@
     width: 100%;
     height: 10vh;
     min-height: 100px; 
-
+    flex-direction: row;
     background-color: #f3eded;
     color: #360b47;
 
   }
 
   .footer h2{
-    width: 100%;
+    width: 50%;
     height: 100%;
-    
+    font-size: 20;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+  }
+  .footer h3{
+    width: 50%;
+    height: 100%;
+    font-size: 10;
+    display: flex;
+    justify-content: left;
+    align-items: left;
   }
 
 </style>
