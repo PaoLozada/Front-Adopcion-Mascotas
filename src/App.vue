@@ -128,7 +128,7 @@
   } 
   .header h1{
     width: 20%; 
-    text-align: center; 
+    text-align: right; 
   }
 
     .header nav {
@@ -137,7 +137,7 @@
 
     display: flex;
     justify-content: space-around;
-    align-items: right;
+    align-items: center;
 
     font-size: 10px;
   }
@@ -162,7 +162,7 @@
     margin: 0%;
     padding: 0%;
 
-    background: #140424 ;
+    background: #2e0657 ;
   }
   .footer{
     margin: 0;

@@ -69,7 +69,7 @@ methods: {
         width: 50%;
     
         display: flex;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
     }
 
@@ -81,14 +81,14 @@ methods: {
         
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
     }
 
     
        
     .logIn_user h2{
-        color: #283747;
+        color: #eef1f5;
 
     }
 
@@ -98,18 +98,18 @@ methods: {
     }
 
     .logIn_user input{
-        height: 20px;
+        height: 10px;
         width: 100%;
 
         box-sizing: border-box;
         padding: 10px 20px;
         margin: 5px 0;
 
-        border: 1px solid #283747;
+        border: 1px solid #e5eaf0;
     }
     .logIn_user button{
         width: 100%;
-        height: 40px;
+        height: 20px;
 
         color: #E5E7E9;
         background: #283747;
