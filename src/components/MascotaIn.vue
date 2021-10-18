@@ -1,9 +1,6 @@
 <template>
     <div class="mascotaIn_user">
-        <div class=imagen_mascotaIn>
-        <img src="https://todoanimales.org/imagenes/labrador-cachorros.png" width="500" height="500">
-       </div>
-
+        
         <div class="container_MascotaIn_mascota">
             <h2>Registrar Mascota</h2>
 

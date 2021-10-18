@@ -183,14 +183,19 @@
     display: flex;
     width: 50%;
     justify-content: left;
-    align-items: left;
-    flex-direction: column;
+    align-items: center;    
   }
 
   .footer h2{
    
-    font-size: 10;
+    font-size: 20;
     
+  }
+  .footer_img{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    align-items: center;   
   }
   
 
