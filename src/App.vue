@@ -198,24 +198,26 @@ body {
   height: 10vh;
   min-height: 100px;
   flex-direction: row;
-  background-color: #ffffff;
+  background-color: #bda5a5;
   color: #360b47;
 }
 .nombres_footer {
   display: flex;
   width: 50%;
   justify-content: left;
-  align-items: center;
+  
   flex-direction: column;
 }
 .contacto {
   display: flex;
   flex-direction: row;
   width: 50%;
+  justify-content: left;
 }
 .footer h2 {
   display: flex;
   font-size: 50;
+  justify-content: left;
 }
 .footer_img {
   display: flex;
@@ -225,7 +227,7 @@ body {
   flex-direction: row;
   
 }
-.footer_img.img{
+.footer_img img{
   margin: 20px;
 }
 </style>
