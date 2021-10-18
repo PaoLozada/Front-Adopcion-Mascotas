@@ -1,7 +1,8 @@
 <template>
   <div id="app" class="app">
     <div class="header">
-        <h1>Adopta Un Cachorro</h1>
+        <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="200" height="200" >
+        <h1>Adopta un Cachorro</h1>
         <nav>
         <button v-if="is_auth" > Inicio </button>
         <button v-if="is_auth" > Cuenta </button>
@@ -9,15 +10,13 @@
         <button v-if="is_auth" > Candidatos </button>
         <button v-if="is_auth" v-on:click="logOut"> Cerrar Sesión </button>
         <button v-if="is_auth" v-on:click="loadHome"> Inicio </button>
-        <button v-if="!is_auth" v-on:click="loadLogIn" > Iniciar Sesión </button>
+        <button v-if="!is_auth" v-on:click="loadLogIn" > Principal </button>
         <button v-if="!is_auth" v-on:click="loadSignUp" > Registrarse </button>
         <button v-if="!is_auth" v-on:click="loadMascotaIn" > Registrar_Mascotas </button>
         <button v-if="!is_auth" v-on:click="loadCandidatoIn" > Quiero Adoptar </button>
       </nav>
     </div>
-    <Body>
-      
-    </Body>
+   
    
 
     <div class="main-component">
@@ -163,7 +162,7 @@
     margin: 0%;
     padding: 0%;
 
-    background: #f3f1f5 ;
+    background: #140424 ;
   }
   .footer{
     margin: 0;

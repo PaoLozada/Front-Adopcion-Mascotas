@@ -2,7 +2,7 @@
 
     <div class="logIn_user">
         <div class="container_logIn_user">
-            <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="200" height="200" >
+            
             <h2>Iniciar sesión</h2>
             
            
@@ -65,11 +65,11 @@ methods: {
     .logIn_user{
         margin: 0;
         padding: 0%;
-        height: 100%;
-        width: 100%;
+        height: 50%;
+        width: 50%;
     
         display: flex;
-        justify-content: rigth;
+        justify-content: left;
         align-items: center;
     }
 
