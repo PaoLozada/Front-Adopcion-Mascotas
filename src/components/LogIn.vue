@@ -78,8 +78,8 @@ methods: {
         width: 50%;
     
         display: flex;
-        justify-content: right;
-        align-items: center;
+        
+        
     }
 
     .container_logIn_user {
