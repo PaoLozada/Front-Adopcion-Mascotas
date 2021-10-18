@@ -74,7 +74,7 @@ methods: {
     .logIn_user{
         margin: 0;
         padding: 0%;
-        height: 60%;
+        height: 50%;
         width: 100%;
         
         
@@ -112,7 +112,7 @@ methods: {
     }
 
     .logIn_user form{
-        width: 50%;
+        width: 20%;
         
     }
 
