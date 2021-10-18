@@ -69,7 +69,7 @@ methods: {
         width: 100%;
     
         display: flex;
-        justify-content: center;
+        justify-content: rigth;
         align-items: center;
     }
 
@@ -81,7 +81,7 @@ methods: {
         
         display: flex;
         flex-direction: column;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
     }
 
@@ -93,7 +93,7 @@ methods: {
     }
 
     .logIn_user form{
-        width: 20%;
+        width: 50%;
         
     }
 
