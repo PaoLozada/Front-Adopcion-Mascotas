@@ -90,7 +90,7 @@ methods: {
         
         display: flex;
         flex-direction: column;
-        justify-content: right;
+        justify-content: left;
         align-items: center;
     }
     .parrafo {
@@ -103,6 +103,7 @@ methods: {
         flex-direction: column;
         justify-content: right;
         align-items: center;
+        color:honeydew;
     }
 
     
