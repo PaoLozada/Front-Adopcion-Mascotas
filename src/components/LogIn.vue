@@ -103,7 +103,7 @@ methods: {
         font-size: 28px;
         padding-right: 30%;
         display: flex;
-        
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         color:honeydew;
