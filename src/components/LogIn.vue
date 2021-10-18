@@ -1,7 +1,7 @@
 <template>
 
     <div class="logIn_user">
-        <img src="https://w7.pngwing.com/pngs/365/367/png-transparent-paw-puppy-other-hand-puppy.png" width="500" height="300">
+        <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="500" height="300">
         <div class="container_logIn_user">
             
             <h2>Iniciar sesión</h2>
