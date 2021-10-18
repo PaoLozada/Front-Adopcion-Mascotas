@@ -163,7 +163,7 @@
     margin: 0%;
     padding: 0%;
 
-    background: #5e0dc7 ;
+    background: #f3f1f5 ;
   }
   .footer{
     margin: 0;
