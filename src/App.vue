@@ -191,6 +191,7 @@ body {
   background: #531010;
 }
 .footer {
+  display: flex;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -208,10 +209,12 @@ body {
   flex-direction: column;
 }
 .contacto {
+  display: flex;
   flex-direction: row;
   width: 50%;
 }
 .footer h2 {
+  display: flex;
   font-size: 50;
 }
 .footer_img {
