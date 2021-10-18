@@ -29,11 +29,7 @@
     <div class="footer">
       <div class nombres_footer>
         <h2>Grupo2 P51</h2>
-        <h3>Alexandra Veloza</h3>
-        <h3>Luis Almanza</h3>
-        <h3>Jaime </h3>
-        <h3>Yujak Velez</h3>
-        <h3>Paola Andrea Lozada G.</h3>
+        
       </div>
       <div class= footer_img>
         <img src="http://cdn.ilovefreesoftware.com/wp-content/uploads/2016/10/feat-3.png" width="20" height="20">
@@ -196,11 +192,7 @@
     font-size: 10;
     
   }
-  .footer h3{
-    
-    font-size: 5;
-    
-  }
+  
 
 </style>
 
