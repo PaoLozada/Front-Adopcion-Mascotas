@@ -4,13 +4,11 @@
         <img src="https://images.vexels.com/media/users/3/236182/isolated/preview/ad61cf5b323286677b8bd8c48c7c6e94-cabeca-de-cachorro-yorkshire-terrier-desenhada-a-mao.png" width="150" height="150" >
         <h1>Adopta un Cachorro</h1>
         <nav>
-        
-        
+              
         <button v-if="is_auth" v-on:click="logOut"> Cerrar Sesión </button>
-        <button v-if="is_auth" v-on:click="loadHome"> Inicio </button>
         <button v-if="!is_auth" v-on:click="loadLogIn" > Principal </button>
         <button v-if="is_auth" v-on:click="loadSignUp" > Registrar Usuario </button>
-        <button v-if="is_auth" v-on:click="loadMascotaIn" > Registrar Mascotas </button>
+        <button v-if="is_auth" v-on:click="loadMascotaIn" > Administrador de Mascotas </button>
         <button v-if="!is_auth" v-on:click="loadCandidatoIn" > Quiero Adoptar </button>
       </nav>
     </div>
