@@ -85,8 +85,8 @@ methods: {
     .container_logIn_user {
         border: 3px solid  #dde3e9;
         border-radius: 10px;
-        width: 60%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
         
         display: flex;
         flex-direction: column;
@@ -114,7 +114,7 @@ methods: {
     }
 
     .logIn_user form{
-        width: 50%;
+        width: 30%;
         
     }
 
@@ -133,17 +133,20 @@ methods: {
         height: 20px;
 
         color: #01070e;
-        background: #eff1f3;
+        background: #17995c;
         border: 1px solid #E5E7E9;
 
         border-radius: 5px;
         padding: 10px 25px;
         margin: 5px 0;
     }
+    .logIn_user label{
+        color: rgb(241, 238, 238);
+    }
 
     .logIn_user button:hover{
         color: #E5E7E9;
-        background: crimson;
+        background: rgb(125, 168, 26);
         border: 1px solid #283747;
     }
 
