@@ -70,7 +70,7 @@ export default {
 
 <style>
 
-    .signUp_user{
+    .mascotaIn_user{
         margin: 0;
         padding: 0%;
         height: 100%;
@@ -81,8 +81,8 @@ export default {
         align-items: center;
     }
 
-    .container_signUp_user {
-        border: 3px solid  #283747;
+    .container_MascotaIn_mascota {
+        border: 3px solid  #ebe1e1;
         border-radius: 10px;
         width: 25%;
         height: 60%;
@@ -93,17 +93,17 @@ export default {
         align-items: center;
     }
 
-    .signUp_user h2{
-        color: #283747;
+    .mascotaIn_user h2{
+        color: #fdf7f8;
 
     }
 
-    .signUp_user form{
+    .mascotaIn_user form{
         width: 70%;
         
     }
 
-    .signUp_user input{
+    .mascotaIn_user input{
         height: 40px;
         width: 100%;
 
@@ -111,15 +111,15 @@ export default {
         padding: 10px 20px;
         margin: 5px 0;
 
-        border: 1px solid #283747;
+        border: 1px solid #f1eeee;
     }
 
-    .signUp_user button{
+    .mascotaIn_userbutton{
         width: 100%;
         height: 40px;
 
         color: #E5E7E9;
-        background: #283747;
+        background: #188037;
         border: 1px solid #E5E7E9;
 
         border-radius: 5px;
@@ -127,9 +127,9 @@ export default {
         margin: 5px 0 25px 0;
     }
 
-    .signUp_user button:hover{
+    .mascotaIn_user button:hover{
         color: #E5E7E9;
-        background: crimson;
+        background: rgb(117, 219, 156);
         border: 1px solid #283747;
     }
 

@@ -1,7 +1,7 @@
 <template>
     <div class="candidatoIn_user">
         <div class="container_CandidatoIn_candidato">
-            <h2>Registrarse</h2>
+            <h2>Diligenciar Encuesta</h2>
 
             <form v-on:submit.prevent="processCandidatoIn" >
                 <input type="text" v-model="candidatos.Numero_Identificacion" placeholder="Numero_Identificacion">
@@ -94,7 +94,7 @@ export default {
     }
 
     .container_CandidatoIn_candidato{
-        border: 3px solid  #283747;
+        border: 3px solid  #f2f4f7;
         border-radius: 10px;
         width: 25%;
         height: 60%;
