@@ -11,7 +11,7 @@
                 <input type="number" v-model="mascotas.Edad" placeholder="Edad">
                 <br>
                 
-                <input type="text" v-model="mascotas.Disponibilidad" placeholder="Disponibilidad">
+                <input type="Boolean" v-model="mascotas.Disponibilidad" placeholder="Disponibilidad">
                
 
                 <button type="submit">Registrar</button>
@@ -54,7 +54,7 @@ export default {
                         Edad: this.mascotas.Edad,
                         Disponibilidad: this.mascotas.Disponibilidad
                     }
-                    N
+                    
                     this.$emit('completedMascotaIn', dataMascotaIn)
                 })
                 .catch((error) => {
