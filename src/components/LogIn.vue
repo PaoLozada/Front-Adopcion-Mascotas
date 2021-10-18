@@ -3,7 +3,7 @@
     <div class="logIn_user">
         <img src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png" width="700" height="700">
        
-       <div class ="parrarfo">
+       <div class ="parrafo">
             <p>En la mayoría de los casos, 
                 adoptar significa darle una segunda oportunidad
                  a un animal que ha sufrido un proceso de abandono, y en ocasiones maltrato.
