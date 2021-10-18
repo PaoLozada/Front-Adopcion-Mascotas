@@ -85,7 +85,7 @@ methods: {
     .container_logIn_user {
         border: 3px solid  #dde3e9;
         border-radius: 10px;
-        width: 100%;
+        width: 50%;
         height: 100%;
         
         display: flex;
