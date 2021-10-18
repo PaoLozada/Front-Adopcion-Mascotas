@@ -31,9 +31,9 @@ export default {
     data: function(){
         return {
             mascotas: {
-                nombre: "",
-                edad: 0,
-                disponibilidad: true
+                Nombre: "",
+                Edad: 0,
+                Disponibilidad: true
                
                 
             }
@@ -45,16 +45,17 @@ export default {
         processMascotaIn: function(){
             axios.post(
                 "https://adopcionesmascotas.herokuapp.com/mascotas/", 
-                this.user,  
+                this.mascotas,  
                 {headers: {}}
             )
                 .then((result) => {
                     let dataMascotaIn = {
                         username: this.user.username,
-                        token_access: result.data.access,
-                        token_refresh: result.data.refresh,
+                        Nombre: this.mascotas.Nombre,
+                        Edad: this.mascotas.Edad,
+                        Disponibilidad: this.mascotas.Disponibilidad
                     }
-                    
+                    N
                     this.$emit('completedMascotaIn', dataMascotaIn)
                 })
                 .catch((error) => {
