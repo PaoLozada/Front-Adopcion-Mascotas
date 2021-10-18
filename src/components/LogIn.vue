@@ -112,8 +112,8 @@ methods: {
         width: 100%;
         height: 20px;
 
-        color: #E5E7E9;
-        background: #283747;
+        color: #01070e;
+        background: #eff1f3;
         border: 1px solid #E5E7E9;
 
         border-radius: 5px;

@@ -120,7 +120,7 @@
     width: 100%; 
     height: 10vh; 
     min-height: 100px; 
-    background-color: "https://i.pinimg.com/474x/74/ef/d3/74efd3bd07df382e9c1f859b0863cc57.jpg"; 
+    background-color: rgb(250, 249, 249); 
     color: rgb(51, 7, 102); 
     display: flex; 
     justify-content: space-between; 
@@ -171,7 +171,7 @@
     height: 10vh;
     min-height: 100px; 
 
-    background-color: #550606;
+    background-color: #f3eded;
     color: #360b47;
 
   }
