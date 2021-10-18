@@ -59,9 +59,12 @@ export default {
             )
                 .then((result) => {
                     let dataCandidatoIn = {
-                        username: this.user.username,
-                        token_access: result.data.access,
-                        token_refresh: result.data.refresh,
+                        Numero_Identificacion: this.candidatos.Numero_Identificacion,
+                        Nombre_Completo: this.candidatos.Nombre_Completo,
+                        Direccion: this.candidatos.Direccion,
+                        Numero_Contacto:this.candidatos.Numero_Contacto,
+                        Email: this.candidatos.Email,
+                        Edad: this.candidatos.Edad  
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
