@@ -1,23 +1,20 @@
 <template>
+    <div class="mascotaIn_user">
 
-    <div class="signUp_user">
-        <div class="container_signUp_user">
-            <h2>Registrarse</h2>
+        <div class="container_MascotaIn_mascota">
+            <h2>Registrar Mascota</h2>
 
-            <form v-on:submit.prevent="processSignUp" >
-                <input type="text" v-model="user.username" placeholder="Username">
+            <form v-on:submit.prevent="processMascotaIn" >
+                <input type="text" v-model="mascotas.Nombre" placeholder="Nombre">
                 <br>
                 
-                <input type="password" v-model="user.password" placeholder="Password">
+                <input type="number" v-model="mascotas.Edad" placeholder="Edad">
                 <br>
                 
-                <input type="text" v-model="user.name" placeholder="Name">
-                <br>
-
-                <input type="email" v-model="user.email" placeholder="Email">
+                <input type="boolean" v-model="mascotas.Disponibilidad" placeholder="Disponibilidad">
                
 
-                <button type="submit">Registrarse</button>
+                <button type="submit">Registrar</button>
             </form>
         </div>
 
@@ -29,40 +26,36 @@
 import axios from 'axios';
 
 export default {
-    name: "SignUp",
+    name: "MascotaIn",
 
     data: function(){
         return {
-            user: {
-                username: "",
-                password: "",
-                name: "",
-                email: "",
-                account: {
-                    lastChangeDate: (new Date()).toJSON().toString(),
-                    balance: 0,
-                    isActive: true
-                }
+            mascotas: {
+                nombre: "",
+                edad: 0,
+                disponibilidad: true
+               
+                
             }
         }
     },
 
 
     methods: {
-        processSignUp: function(){
+        processMascotaIn: function(){
             axios.post(
-                "https://adopcionesmascotas.herokuapp.com/user/", 
+                "https://adopcionesmascotas.herokuapp.com/mascotas/", 
                 this.user,  
                 {headers: {}}
             )
                 .then((result) => {
-                    let dataSignUp = {
+                    let dataMascotaIn = {
                         username: this.user.username,
                         token_access: result.data.access,
                         token_refresh: result.data.refresh,
                     }
                     
-                    this.$emit('completedSignUp', dataSignUp)
+                    this.$emit('completedMascotaIn', dataMascotaIn)
                 })
                 .catch((error) => {
                     console.log(error)

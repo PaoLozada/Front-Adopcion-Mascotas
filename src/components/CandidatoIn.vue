@@ -1,23 +1,30 @@
 <template>
-
-    <div class="signUp_user">
-        <div class="container_signUp_user">
+    <div class="candidatoIn_user">
+        <div class="container_CandidatoIn_candidato">
             <h2>Registrarse</h2>
 
-            <form v-on:submit.prevent="processSignUp" >
-                <input type="text" v-model="user.username" placeholder="Username">
+            <form v-on:submit.prevent="processCandidatoIn" >
+                <input type="text" v-model="candidatos.Numero_Identificacion" placeholder="Numero_Identificacion">
                 <br>
                 
-                <input type="password" v-model="user.password" placeholder="Password">
+                <input type="text" v-model="candidatos.Nombre_Completo" placeholder="Nombre_Completo">
                 <br>
                 
-                <input type="text" v-model="user.name" placeholder="Name">
+                <input type="text" v-model="candidatos.Direccion" placeholder="Direccion">
+                <br>
+                
+                <input type="text" v-model="candidatos.Numero_Contacto" placeholder="Numero_Contacto">
                 <br>
 
-                <input type="email" v-model="user.email" placeholder="Email">
-               
+                <input type="email" v-model="candidatos.Email" placeholder="Email">
+                <br>
 
-                <button type="submit">Registrarse</button>
+                <input type="number" v-model="candidatos.Edad" placeholder="Edad">
+                <br>
+
+                <input type="number" v-model="candidatos.Resultado_Prueba" placeholder="Resutado_Prueba">
+                
+                <button type="submit">Enviar Informacón</button>
             </form>
         </div>
 
@@ -29,40 +36,39 @@
 import axios from 'axios';
 
 export default {
-    name: "SignUp",
+    name: "CandidatoIn",
 
     data: function(){
         return {
-            user: {
-                username: "",
-                password: "",
-                name: "",
-                email: "",
-                account: {
-                    lastChangeDate: (new Date()).toJSON().toString(),
-                    balance: 0,
-                    isActive: true
-                }
+            candidatos: {
+                Numero_Identificacion: "",
+                Nombre_Completo: "",
+                Direccion: "",
+                Numero_Contacto: "",
+                Email: "",
+                Edad: 0,
+                Resultado_Prueba:0
+               
             }
         }
     },
 
 
     methods: {
-        processSignUp: function(){
+        processCandidatoIn: function(){
             axios.post(
-                "https://adopcionesmascotas.herokuapp.com/user/", 
+                "https://adopcionesmascotas.herokuapp.com/candidatos/", 
                 this.user,  
                 {headers: {}}
             )
                 .then((result) => {
-                    let dataSignUp = {
+                    let dataCandidatoIn = {
                         username: this.user.username,
                         token_access: result.data.access,
                         token_refresh: result.data.refresh,
                     }
                     
-                    this.$emit('completedSignUp', dataSignUp)
+                    this.$emit('completedCandidatoIn', dataCandidatoIn)
                 })
                 .catch((error) => {
                     console.log(error)

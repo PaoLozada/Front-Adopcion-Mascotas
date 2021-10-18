@@ -5,9 +5,9 @@
             <h2>Iniciar sesión</h2>
 
             <form v-on:submit.prevent="processLogInUser" >
-                <input type="text" v-model="user.username" placeholder="Username">
-                <br>
-                <input type="password" v-model="user.password" placeholder="Password">
+                <label for="username">Username</label><input id="username" name="username" type="text" v-model="user.username" placeholder="Username">
+                <br>                
+                <label for="password">Password</label><input id="password" name="password" type="password" v-model="user.password" placeholder="password">
                 <br>
                 <button type="submit">Iniciar Sesion</button>
             </form>
@@ -18,11 +18,8 @@
 </template>
 
 
-
-
 <script>
 import axios from 'axios';
-
 export default {
     name: "LogIn",
 
@@ -34,11 +31,10 @@ export default {
             }
         }
     },
-
-    methods: {
+methods: {
         processLogInUser: function(){
             axios.post(
-                "https://mision-tic-bank-be.herokuapp.com/login/", 
+                "https://adopcionesmascotas.herokuapp.com/login/", 
                 this.user,  
                 {headers: {}}
                 )
@@ -48,7 +44,7 @@ export default {
                         token_access: result.data.access,
                         token_refresh: result.data.refresh,
                     }
-                    
+          
                     this.$emit('completedLogIn', dataLogIn)
                 })
                 .catch((error) => {
@@ -61,11 +57,6 @@ export default {
     }
 }
 </script>
-
-
-
-
-
 
 <style>
 
@@ -92,6 +83,8 @@ export default {
         align-items: center;
     }
 
+    
+       
     .logIn_user h2{
         color: #283747;
 
@@ -112,7 +105,6 @@ export default {
 
         border: 1px solid #283747;
     }
-
     .logIn_user button{
         width: 100%;
         height: 40px;
