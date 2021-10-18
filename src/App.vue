@@ -142,7 +142,7 @@
     font-size: 10px;
   }
   .header nav button{
-    color: #faf8fc;
+    color: "https://i.pinimg.com/474x/74/ef/d3/74efd3bd07df382e9c1f859b0863cc57.jpg";
     background: #283747;
     border: 1px solid #111111;
 
