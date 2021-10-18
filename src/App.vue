@@ -220,9 +220,13 @@ body {
 .footer_img {
   display: flex;
   width: 50%;
-  justify-content: left;
+  justify-content: right;
   align-items: center;
   flex-direction: row;
+  
+}
+.footer_img.img{
+  margin: 20px;
 }
 </style>
 
