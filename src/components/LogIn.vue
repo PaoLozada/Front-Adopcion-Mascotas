@@ -75,7 +75,7 @@ methods: {
         margin: 0;
         padding: 0%;
         height: 50%;
-        width: 100%;
+        width: 50%;
         
         
     }
