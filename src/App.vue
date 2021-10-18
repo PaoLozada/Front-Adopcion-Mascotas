@@ -90,7 +90,9 @@
         alert("Registro Exitoso");
         this.completedLogIn(data);
       },
-      completedMascotaIn: function(data) {},
+      completedMascotaIn: function(data) {
+        alert("Mascota registrada con exito");
+      },
       completedCandidatoIn: function(data) {
         alert("Datos enviados con exito");
       }

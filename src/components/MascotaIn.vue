@@ -11,7 +11,7 @@
                 <input type="number" v-model="mascotas.Edad" placeholder="Edad">
                 <br>
                 
-                <input type="boolean" v-model="mascotas.Disponibilidad" placeholder="Disponibilidad">
+                <input type="text" v-model="mascotas.Disponibilidad" placeholder="Disponibilidad">
                
 
                 <button type="submit">Registrar</button>
