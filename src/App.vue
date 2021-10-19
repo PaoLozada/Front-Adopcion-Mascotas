@@ -33,8 +33,8 @@
         <div class="contacto">
           <img
             src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
-            width="30"
-            height="30"
+            width="50"
+            height="50"
           /><p>3118546547-30185479654</p>
           
         </div>
@@ -42,18 +42,18 @@
       <div class="footer_img">
         <img
           src="https://png.pngtree.com/png-clipart/20180518/ourlarge/pngtree-instagram-icon-instagram-logo-png-image_3571406.png"
-          width="50"
-          height="50"
+          width="80"
+          height="80"
         />
         <img
           src="http://assets.stickpng.com/images/584ac2ef3ac3a570f94a666e.png"
-          width="50"
-          height="50"
+          width="80"
+          height="80"
         />
         <img
           src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"
-          width="50"
-          height="50"
+          width="80"
+          height="80"
         />
       </div>
     </div>
@@ -194,7 +194,7 @@ body {
   height: 10vh;
   min-height: 100px;
   flex-direction: row;
-  background-image: url("https://thumbs.dreamstime.com/z/pet-paw-bones-dog-pattern-vector-seamless-footprint-texture-49468324.jpg");
+  background-image: url("https://image.shutterstock.com/image-vector/dog-paw-seamless-pattern-vector-260nw-1386908894.jpg");
   color: #360b47;
 }
 .nombres_footer {
