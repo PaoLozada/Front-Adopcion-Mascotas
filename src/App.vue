@@ -49,8 +49,8 @@
           height="60"
         />
         <img
-          src="http://assets.stickpng.com/images/584ac2ef3ac3a570f94a666e.png"
-          width="80"
+          src="https://img1.freepng.es/20171221/wgw/facebook-picture-5a3c060eccfa84.1675788915138831508396.jpg"
+          width="60"
           height="60"
         />
         <img
