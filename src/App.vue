@@ -194,7 +194,7 @@ body {
   height: 10vh;
   min-height: 100px;
   flex-direction: row;
-  background-image: url("https://www.netclipart.com/pp/m/301-3017150_paw-print-puppy-prints-clipart-free-best-transparent.png");
+  background-color: rgb(255, 255, 255);
   color: #360b47;
 }
 .nombres_footer {
