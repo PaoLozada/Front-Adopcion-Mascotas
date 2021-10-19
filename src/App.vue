@@ -137,7 +137,7 @@ body {
   margin: 0%;
   padding: 0;
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   min-height: 100px;
   
   background-image: url("https://image.shutterstock.com/image-vector/dog-paw-seamless-pattern-vector-260nw-1386908894.jpg");
