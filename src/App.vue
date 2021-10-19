@@ -3,8 +3,8 @@
     <div class="header">
       <img
         src="https://images.vexels.com/media/users/3/236182/isolated/preview/ad61cf5b323286677b8bd8c48c7c6e94-cabeca-de-cachorro-yorkshire-terrier-desenhada-a-mao.png"
-        width="150"
-        height="150"
+        width="200"
+        height="200"
       />
       <h1>Adopta un Cachorro</h1>
       <nav>
