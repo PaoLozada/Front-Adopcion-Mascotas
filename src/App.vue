@@ -36,8 +36,8 @@
         <div class="contacto">
           <img
             src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
-            width="50"
-            height="50"
+            width="40"
+            height="40"
           /><p>3118546547-30185479654</p>
           
         </div>
@@ -45,18 +45,18 @@
       <div class="footer_img">
         <img
           src="https://i.pinimg.com/originals/3b/21/c7/3b21c7efd2ba9c119fb8d361acacc31d.png"
-          width="60"
-          height="60"
+          width="40"
+          height="40"
         />
         <img
           src="https://img1.freepng.es/20171221/wgw/facebook-picture-5a3c060eccfa84.1675788915138831508396.jpg"
-          width="60"
-          height="60"
+          width="40"
+          height="40"
         />
         <img
           src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"
-          width="60"
-          height="60"
+          width="40"
+          height="40"
         />
       </div>
     </div>
