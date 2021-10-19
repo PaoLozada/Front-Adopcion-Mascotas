@@ -146,14 +146,14 @@ body {
   align-items: center;
 }
 .header h1 {
-  width: 60%;
+  width: 30%;
   text-align: right;
   font-size: 60px;
 }
 
 .header nav {
   height: 100%;
-  width: 20%;
+  width: 50%;
 
   display: flex;
   justify-content: space-around;
