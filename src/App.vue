@@ -103,6 +103,9 @@ export default {
     loadHome: function () {
       this.$router.push({ name: "home" });
     },
+    loadvermascotas: function () {
+      this.$router.push({ name: "vermascotas" });
+    },
 
     completedLogIn: function (data) {
       localStorage.setItem("isAuth", true);
