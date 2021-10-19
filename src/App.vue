@@ -155,7 +155,7 @@ body {
 .header h1 {
   width: 60%;
   text-align: right;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .header nav {
@@ -198,7 +198,7 @@ body {
   height: 10vh;
   min-height: 100px;
   flex-direction: row;
-  background-color: #bda5a5;
+  background-color:floralwhite;
   color: #360b47;
 }
 .nombres_footer {
@@ -213,11 +213,13 @@ body {
   flex-direction: row;
   width: 50%;
   justify-content: left;
+  padding: 0;
 }
 .footer h2 {
   display: flex;
   font-size: 50;
   justify-content: left;
+  padding: 0;
 }
 .footer_img {
   display: flex;
