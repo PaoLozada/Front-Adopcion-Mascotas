@@ -10,15 +10,9 @@
       <nav>
         <button v-if="is_auth" v-on:click="logOut">Cerrar Sesión</button>
         <button v-if="!is_auth" v-on:click="loadLogIn">Principal</button>
-        <button v-if="is_auth" v-on:click="loadSignUp">
-          Registrar Usuario
-        </button>
-        <button v-if="is_auth" v-on:click="loadMascotaIn">
-          Administrador de Mascotas
-        </button>
-        <button v-if="!is_auth" v-on:click="loadCandidatoIn">
-          Quiero Adoptar
-        </button>
+        <button v-if="is_auth" v-on:click="loadSignUp">Registrar Usuario</button>
+        <button v-if="is_auth" v-on:click="loadMascotaIn">Administrador de Mascotas</button>
+        <button v-if="!is_auth" v-on:click="loadCandidatoIn">Quiero Adoptar</button>
       </nav>
     </div>
 
@@ -148,7 +142,7 @@ body {
   background-color: rgb(250, 249, 249);
   color: rgb(51, 7, 102);
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
 }
 .header h1 {
