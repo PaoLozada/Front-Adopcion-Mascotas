@@ -151,6 +151,7 @@ body {
   text-align: left;
   font-size: 60px;
   background-color: rgb(255, 255, 255);
+  display: flex;
 }
 
 .header nav {
@@ -167,7 +168,7 @@ body {
   color: #faf8fc;
   background: #531010;
   border: 1px solid #111111;
-
+  display: flex;
   border-radius: 5px;
   padding: 10px 20px;
   margin: 5px;
@@ -229,6 +230,7 @@ body {
   
 }
 .footer_img img{
+  display: flex;
   margin: 20px;
   background-color: rgb(255, 255, 255);
 }
