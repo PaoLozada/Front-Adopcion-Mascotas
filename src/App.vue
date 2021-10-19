@@ -103,7 +103,7 @@ export default {
     loadHome: function () {
       this.$router.push({ name: "home" });
     },
-    loadvermascotas: function () {
+    loadverMascotas: function () {
       this.$router.push({ name: "vermascotas" });
     },
 
