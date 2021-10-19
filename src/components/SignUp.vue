@@ -17,7 +17,7 @@
                 <input type="email" v-model="user.email" placeholder="Email">
                
 
-                <button type="submit">Registrarse</button>
+                <button type="submit">Registrar</button>
             </form>
         </div>
 

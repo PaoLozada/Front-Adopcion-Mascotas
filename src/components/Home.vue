@@ -1,6 +1,6 @@
 <template>
     <div class="greetings">
-        <h1>Tus datos han sido enviados <span> {{username}} </span>!</h1>
+        <h1>Bienvenid@ de nuevo <span> {{username}} </span>!</h1>
     </div>
 </template>
 <script>
