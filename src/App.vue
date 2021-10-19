@@ -216,6 +216,7 @@ body {
   font-size: 30;
   justify-content: left;
   padding: 0;
+  background-color: fffff;
 }
 .footer_img {
   display: flex;
@@ -223,7 +224,7 @@ body {
   justify-content: right;
   align-items: center;
   flex-direction: row;
-  
+  background-color: fffff;
 }
 .footer_img img{
   margin: 20px;
