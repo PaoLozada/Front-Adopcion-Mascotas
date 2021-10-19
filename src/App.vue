@@ -166,7 +166,7 @@ body {
   width: 50%;
 
   display: flex;
-  justify-content: left;
+  justify-content: right;
   align-items: center;
 
   font-size: 50px;
