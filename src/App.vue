@@ -193,14 +193,14 @@ body {
   height: 10vh;
   min-height: 100px;
   flex-direction: row;
-  background-image: url("https://c8.alamy.com/compes/2aywcmb/patas-de-perro-vector-huellas-icono-frances-bulldog-dibujos-personaje-simbolo-ilustracion-diseno-de-fideos-2aywcmb.jpg");
+  background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11258542.jpg");
   color: #360b47;
 }
 .nombres_footer {
   display: flex;
   width: 50%;
   justify-content: left;
-  background-color: fffff;
+  background-color: rgb(248, 244, 244);
   flex-direction: column;
 }
 .contacto {
@@ -210,6 +210,7 @@ body {
   justify-content: left;
   padding: 0;
   background-color: fffff;
+  margin: 0;
 }
 .footer h2 {
   display: flex;
@@ -217,6 +218,7 @@ body {
   justify-content: left;
   padding: 0;
   background-color: fffff;
+  margin: 0;
 }
 .footer_img {
   display: flex;
@@ -224,7 +226,7 @@ body {
   justify-content: right;
   align-items: center;
   flex-direction: row;
-  background-color: fffff;
+   background-color: rgb(248, 244, 244);
 }
 .footer_img img{
   margin: 20px;
