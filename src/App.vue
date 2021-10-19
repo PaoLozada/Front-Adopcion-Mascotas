@@ -139,7 +139,8 @@ body {
   width: 100%;
   height: 10vh;
   min-height: 100px;
-  background-color: rgb(250, 249, 249);
+  
+  background-image: url("https://img.freepik.com/vector-gratis/huella-gato-perro-cachorro-mascota-rastro_177006-39.jpg?size=626&ext=jpg");
   color: rgb(51, 7, 102);
   display: flex;
   justify-content: left;
