@@ -29,7 +29,7 @@
                 <h3> Edad: 5 meses</h3>
             </div>
             <div class = "caja_mascota">
-                <img src= "https://www.revistapetlovers.com/wp-content/uploads/2020/05/esquilaecanino_articulo-1.jpg" width="200" height="200">
+                <img src= "https://petfunusa.com/wp-content/uploads/2020/03/slider-img3.png" width="200" height="200">
                 <h3> Nombre: Lucas</h3>
                 <h3> Edad: 12 meses</h3>
             </div>
@@ -68,14 +68,14 @@
     }
     .verMascotas h2{
         color: #fff;
-        font-size: 25px;
+        font-size: 40px;
         text-align: center;
     }
     .verMascotas h3{
         color: #fff;
     }
     .caja_mascota{
-        margin: 5;
+        margin: 20;
         text-align: center;
 
     }
