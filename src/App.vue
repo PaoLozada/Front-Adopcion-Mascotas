@@ -39,8 +39,8 @@
         <div class="contacto">
           <img
             src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
-            width="50"
-            height="50"
+            width="40"
+            height="40"
           /><p>3118546547-30185479654</p>
           
         </div>
@@ -146,7 +146,6 @@ body {
   height: 10vh;
   min-height: 100px;
   background-color: rgb(250, 249, 249);
-  background-image: "https://e7.pngegg.com/pngimages/924/444/png-clipart-black-animal-footprints-black-animal.png";
   color: rgb(51, 7, 102);
   display: flex;
   justify-content: space-between;
@@ -198,7 +197,7 @@ body {
   height: 10vh;
   min-height: 100px;
   flex-direction: row;
-  background-color:floralwhite;
+  background-color:fff;
   color: #360b47;
 }
 .nombres_footer {
@@ -217,7 +216,7 @@ body {
 }
 .footer h2 {
   display: flex;
-  font-size: 50;
+  font-size: 40;
   justify-content: left;
   padding: 0;
 }
