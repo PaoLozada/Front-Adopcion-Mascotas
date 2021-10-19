@@ -56,19 +56,18 @@
         height: 100%;
         width: 100%;
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        
         flex-direction: column;
         text-align: center;
         
     }
     .contenedorMascotas{
-        width: 70;
+        
         flex-wrap: wrap;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: flex-start;
-        height: 20;
+        height: 100vh;
       
     }
     .verMascotas h2{
@@ -79,7 +78,7 @@
     }
     .verMascotas h3{
         color: #fff;
-        font-size: 10px;
+        font-size: 20px;
     }
     .caja_mascota{
         
