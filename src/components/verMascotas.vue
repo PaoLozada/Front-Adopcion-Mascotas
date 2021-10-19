@@ -55,7 +55,7 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        
+        flex-direction: column;
         
     }
     .contenedorMascotas{
@@ -68,7 +68,7 @@
     }
     .verMascotas h2{
         color: #fff;
-        font-size: medium;
+        font-size: 25px;
         text-align: center;
     }
     .verMascotas h3{
