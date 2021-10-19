@@ -33,8 +33,8 @@
         <div class="contacto">
           <img
             src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
-            width="40"
-            height="40"
+            width="30"
+            height="30"
           /><p>3118546547-30185479654</p>
           
         </div>
@@ -211,7 +211,7 @@ body {
 }
 .footer h2 {
   display: flex;
-  font-size: 40;
+  font-size: 30;
   justify-content: left;
   padding: 0;
 }
