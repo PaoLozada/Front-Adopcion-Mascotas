@@ -107,6 +107,7 @@ methods: {
         justify-content: center;
         align-items: center;
         color:honeydew;
+        text-align: center;
     }
 
     
