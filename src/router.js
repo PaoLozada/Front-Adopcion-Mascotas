@@ -5,6 +5,7 @@ import SignUp from './components/SignUp.vue'
 import MascotaIn from './components/MascotaIn.vue'
 import CandidatoIn from './components/CandidatoIn.vue'
 import Home from './components/Home.vue'
+import verMascotas from './components/verMascotas.vue'
 
 const routes = [
   {
