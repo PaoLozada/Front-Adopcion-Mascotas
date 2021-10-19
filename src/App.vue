@@ -12,6 +12,7 @@
         <button v-if="!is_auth" v-on:click="loadLogIn">Principal</button>
         <button v-if="is_auth" v-on:click="loadSignUp">Registrar Usuario</button>
         <button v-if="is_auth" v-on:click="loadMascotaIn">Administrador de Mascotas</button>
+        <button v-if="!is_auth" v-on:click="loadverMascotas">Busco un hogar</button>
         <button v-if="!is_auth" v-on:click="loadCandidatoIn">Quiero Adoptar</button>
       </nav>
     </div>
@@ -23,6 +24,7 @@
         v-on:completedMascotaIn="completedMascotaIn"
         v-on:completedCandidatoIn="completedCandidatoIn"
         v-on:logOut="logOut"
+        
       >
       </router-view>
     </div>
