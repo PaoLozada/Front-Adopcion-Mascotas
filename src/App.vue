@@ -140,7 +140,7 @@ body {
   height: 10vh;
   min-height: 100px;
   
-  background-image: url("https://img.freepik.com/vector-gratis/huella-gato-perro-cachorro-mascota-rastro_177006-39.jpg?size=626&ext=jpg");
+  background-image: url("https://image.shutterstock.com/image-vector/dog-paw-seamless-pattern-vector-260nw-1386908894.jpg");
   color: rgb(51, 7, 102);
   display: flex;
   justify-content: left;
@@ -150,6 +150,7 @@ body {
   width: 50%;
   text-align: left;
   font-size: 60px;
+  background-color: rgb(248, 244, 244);
 }
 
 .header nav {
@@ -200,7 +201,6 @@ body {
   display: flex;
   width: 50%;
   justify-content: left;
-  background-color: rgb(248, 244, 244);
   flex-direction: column;
 }
 .contacto {
@@ -217,7 +217,7 @@ body {
   font-size: 30;
   justify-content: left;
   padding: 0;
-  background-color: fffff;
+  background-color: rgb(248, 244, 244);
   margin: 0;
 }
 .footer_img {
@@ -226,10 +226,14 @@ body {
   justify-content: right;
   align-items: center;
   flex-direction: row;
-   background-color: rgb(248, 244, 244);
+  
 }
 .footer_img img{
   margin: 20px;
+  background-color: rgb(248, 244, 244);
+}
+.footer p{
+  background-color: rgb(248, 244, 244);
 }
 </style>
 
