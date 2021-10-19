@@ -24,7 +24,7 @@
         v-on:completedMascotaIn="completedMascotaIn"
         v-on:completedCandidatoIn="completedCandidatoIn"
         v-on:logOut="logOut"
-        v-on:loadverMascotas="loadverMascotas"
+        v-on:completedverMascotas="completedverMascotas"
         
       >
       </router-view>
@@ -125,6 +125,9 @@ export default {
     },
     completedCandidatoIn: function (data) {
       alert("Datos enviados con éxito");
+    },
+    completedverMascotas: function () {
+      
     },
   },
 
