@@ -114,7 +114,7 @@ export default {
         border: 1px solid #f1eeee;
     }
 
-    .mascotaIn_userbutton{
+    .mascotaIn_user button{
         width: 100%;
         height: 40px;
 

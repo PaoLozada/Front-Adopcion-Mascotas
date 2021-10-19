@@ -40,6 +40,16 @@
                 <h3> Nombre: Pola</h3>
                 <h3> Edad: 14 meses</h3>
             </div>
+             <div class = "caja_mascota">
+                <img src= "	https://cdn2.excelsior.com.mx/media/styles/image800x600/public/pictures/2017/06/01/1686179.jpg"  width="150" height="150">
+                <h3> Nombre: Rosita</h3>
+                <h3> Edad: 3 meses</h3>
+            </div>
+            <div class = "caja_mascota">
+                <img src= "		https://t1.ea.ltmcdn.com/es/images/2/4/4/cuidados_de_perros_cachorros_7442_600_square.jpg"  width="150" height="150">
+                <h3> Nombre: Lalo</h3>
+                <h3> Edad: 7 meses</h3>
+            </div>
              
             
         </div>
