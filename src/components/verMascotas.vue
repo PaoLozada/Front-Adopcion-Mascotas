@@ -97,7 +97,7 @@
     .caja_mascota{
         
         text-align: center;
-        min-width: 180px;
+        min-width: 250px;
 
     }
     

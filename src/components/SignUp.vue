@@ -37,12 +37,8 @@ export default {
                 username: "",
                 password: "",
                 name: "",
-                email: "",
-                account: {
-                    lastChangeDate: (new Date()).toJSON().toString(),
-                    balance: 0,
-                    isActive: true
-                }
+                email: ""
+               
             }
         }
     },
