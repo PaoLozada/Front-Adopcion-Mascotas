@@ -167,7 +167,8 @@ body {
   border: 1px solid #111111;
 
   border-radius: 5px;
-  padding: 10px 10px;
+  padding: 10px 20px;
+  margin: 10px;
 }
 
 .header nav button:hover {
