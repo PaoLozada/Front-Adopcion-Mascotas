@@ -181,6 +181,7 @@ body {
 }
 
 .main-component {
+  width: 100%;
   height: 75vh;
   margin: 0%;
   padding: 0%;
