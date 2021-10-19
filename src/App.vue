@@ -146,8 +146,8 @@ body {
   align-items: center;
 }
 .header h1 {
-  width: 30%;
-  text-align: right;
+  width: 50%;
+  text-align: left;
   font-size: 60px;
 }
 
@@ -156,7 +156,7 @@ body {
   width: 50%;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
 
   font-size: 50px;
@@ -167,7 +167,7 @@ body {
   border: 1px solid #111111;
 
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 .header nav button:hover {
