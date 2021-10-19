@@ -24,6 +24,7 @@
         v-on:completedMascotaIn="completedMascotaIn"
         v-on:completedCandidatoIn="completedCandidatoIn"
         v-on:logOut="logOut"
+        v-on:verMascotas="verMascotas"
         
       >
       </router-view>
