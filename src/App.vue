@@ -150,7 +150,7 @@ body {
   width: 50%;
   text-align: left;
   font-size: 60px;
-  background-color: rgb(248, 244, 244);
+  background-color: rgb(255, 255, 255);
 }
 
 .header nav {
@@ -194,7 +194,7 @@ body {
   height: 10vh;
   min-height: 100px;
   flex-direction: row;
-  background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11258542.jpg");
+  background-image: url("https://thumbs.dreamstime.com/z/pet-paw-bones-dog-pattern-vector-seamless-footprint-texture-49468324.jpg");
   color: #360b47;
 }
 .nombres_footer {
@@ -217,7 +217,7 @@ body {
   font-size: 30;
   justify-content: left;
   padding: 0;
-  background-color: rgb(248, 244, 244);
+  background-color: rgb(255, 255, 255);
   margin: 0;
 }
 .footer_img {
@@ -230,10 +230,10 @@ body {
 }
 .footer_img img{
   margin: 20px;
-  background-color: rgb(248, 244, 244);
+  background-color: rgb(255, 255, 255);
 }
 .footer p{
-  background-color: rgb(248, 244, 244);
+  background-color: rgb(255, 255, 255);
 }
 </style>
 
