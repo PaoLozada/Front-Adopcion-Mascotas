@@ -147,7 +147,7 @@ export default {
     .container_CandidatoIn_candidato{
         border: 3px solid  #f2f4f7;
         border-radius: 10px;
-        width: 80%;
+        width: 70%;
         height: 85%;
 
         display: flex;
@@ -158,7 +158,7 @@ export default {
     .DatosPersonales{
         display: flex;
         flex-direction: column;
-        margin: 10;
+        margin: 30;
         width: 50%;
         height: 70%;
         padding: 10px;
@@ -167,7 +167,7 @@ export default {
     .Complementarios{
         display: flex;
         flex-direction: column;
-        margin: 10;
+        margin: 30;
         width: 50%;
         height: 70%;
         padding: 10px;
@@ -190,14 +190,13 @@ export default {
         
     }
     .candidatoIn_user select{
-        height: 25%;
         width: 30%;
         
     }
 
     .candidatoIn_user input{
         height: 25px;
-        width: 80%;
+        width: 100%;
 
         box-sizing: border-box;
         padding: 10px 20px;
