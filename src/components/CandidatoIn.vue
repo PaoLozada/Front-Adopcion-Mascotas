@@ -57,10 +57,10 @@
                             
                         </form>
                 </div>
-
+                <button type="submit">Enviar Informacón</button>
 
             </div>
-            <button type="submit">Enviar Informacón</button>
+            
 
         </div>
 
