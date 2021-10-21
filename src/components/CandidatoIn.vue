@@ -173,7 +173,7 @@ export default {
         height: 85%;
         margin: 0;
         padding: 0%;
-        align-items: center;
+        
 
     }
 
@@ -190,7 +190,7 @@ export default {
         display: flex;
         flex-direction: column;
         height: 90;
-        
+        align-items: center;
         
         margin: 0;
         padding: 0%;
