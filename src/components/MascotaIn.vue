@@ -34,7 +34,6 @@ export default {
                 Nombre: "",
                 Edad: 0,
                 Disponibilidad: true
-               
                 
             }
         }
@@ -125,6 +124,9 @@ export default {
         border-radius: 5px;
         padding: 10px 25px;
         margin: 5px 0 25px 0;
+    }
+    .mascotaIn_user label{
+        color: #fff;
     }
 
     .mascotaIn_user button:hover{
