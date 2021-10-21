@@ -15,7 +15,7 @@
                             <label for="Direccion">Dirección</label><input type="text" v-model="candidatos.Direccion">
                             <br>
                             
-                            <label for="Numero_Contacto">Númmero de Contacto</label><input type="text" v-model="candidatos.Numero_Contacto">
+                            <label for="Numero_Contacto">Número de Contacto</label><input type="text" v-model="candidatos.Numero_Contacto">
                             <br>
 
                             <label for="Email">E-mail</label><input type="email" v-model="candidatos.Email">
@@ -29,21 +29,29 @@
                 <div class = "Complementarios">
 
                         <form v-on:submit.prevent="processCandidatoIn" >
-                            <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label><select  v-model="candidatos.Has_Tenido_Mascotas" ><option>SI</option><option>NO</option></select>
+                            <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label>
                             <br>
-                            <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label><select v-model="candidatos.Seras_Responsable" ><option>SI</option><option>NO</option></select>
+                            <select  v-model="candidatos.Has_Tenido_Mascotas" ><option>SI</option><option>NO</option></select>
                             <br>
-                            
-                            <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label><select v-model="candidatos.Tienes_Espacio" ><option>SI</option><option>NO</option></select>
+                            <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label>
                             <br>
-                            
-                            <label for="Tienes_Tiempo">¿Cuentas con tiempo suficiente?</label><select v-model="candidatos.Tienes_Tiempo"><option>SI</option><option>NO</option></select>
+                            <select v-model="candidatos.Seras_Responsable" ><option>SI</option><option>NO</option></select>
+                            <br>                            
+                            <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label>
                             <br>
-
-                            <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label><select v-model="candidatos.Recursos_Economicos" ><option>SI</option><option>NO</option></select>
+                            <select v-model="candidatos.Tienes_Espacio" ><option>SI</option><option>NO</option></select>
+                            <br>                            
+                            <label for="Tienes_Tiempo">¿Cuentas con tiempo suficiente?</label>
                             <br>
-
-                            <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label><select v-model="candidatos.Afrontar_Problemas"><option>SI</option><option>NO</option></select>
+                            <select v-model="candidatos.Tienes_Tiempo"><option>SI</option><option>NO</option></select>
+                            <br>
+                            <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label>
+                            <br>
+                            <select v-model="candidatos.Recursos_Economicos" ><option>SI</option><option>NO</option></select>
+                            <br>
+                            <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label>
+                            <br>
+                            <select v-model="candidatos.Afrontar_Problemas"><option>SI</option><option>NO</option></select>
                             <br>
 
                             
@@ -179,6 +187,11 @@ export default {
 
     .candidatoIn_user form{
         width: 100%;
+        
+    }
+    .candidatoIn_user select{
+        height: 25%;
+        width: 30%;
         
     }
 
