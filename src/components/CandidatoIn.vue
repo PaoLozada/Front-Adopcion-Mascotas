@@ -18,7 +18,7 @@
                             <label for="Numero_Contacto">Número de Contacto</label><input type="text" v-model="candidatos.Numero_Contacto">
                             <br>
 
-                            <label for="Email">E-mail</label><input type="email" v-model="candidatos.Email">
+                            <label for="Email">E-mail</label><input type="text" v-model="candidatos.Email">
                             <br>
 
                             <label for="Edad">Edad</label><input type="number" v-model="candidatos.Edad" >
@@ -154,7 +154,7 @@ export default {
         flex-direction: column;
         width: 50%;
         height: 90%;
-        margin: 10%;
+        margin-right:20%;
         padding: 0%;
 
     }
@@ -163,7 +163,7 @@ export default {
         flex-direction: column;
         width: 50%;
         height: 90%;
-        margin: 10%;
+        margin-left: 20%;
         padding: 0%;
     }
     .Encuesta{
