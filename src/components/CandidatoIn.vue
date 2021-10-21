@@ -181,14 +181,14 @@ export default {
     .candidatoIn_user form{
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         
     }
     .candidatoIn_user select{
         width: 30%;
-        height: 30;
+        height: 25;
         margin: 5px;
-        
+        padding: 5px;
     }
 
     .candidatoIn_user input{
