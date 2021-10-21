@@ -179,6 +179,8 @@ export default {
     .candidatoIn_user h2{
         color: #f0f4f8;
         font-size: 30px;
+        margin: 0;
+        padding: 0%;
 
     }
 
@@ -186,7 +188,7 @@ export default {
         width: 90%;
         display: flex;
         flex-direction: column;
-        height: 65;
+        height: 70;
         justify-content: center;
         align-items: center;
         margin: 0;
@@ -230,7 +232,7 @@ export default {
 
         border-radius: 5px;
         padding: 10px 25px;
-        margin: 5px 0 25px 0;
+        margin: 5px 0 5px 0;
     }
 
     .candidatoIn_user button:hover{
