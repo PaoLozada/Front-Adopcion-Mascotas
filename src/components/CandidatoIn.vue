@@ -2,8 +2,8 @@
     <div class="candidatoIn_user">
         <div class="container_CandidatoIn_candidato">
             <h2>Diligenciar Encuesta</h2>
-                <div class = "Encuesta">
-                    <form v-on:submit.prevent="processCandidatoIn" >
+                <form v-on:submit.prevent="processCandidatoIn" >
+                    <div class = "Encuesta">
                         <div class = "DatosPersonales">
                         
                             <label for="Numero_Identificacion">Número de Identificación</label><input type="text" v-model="candidatos.Numero_Identificacion">
@@ -53,17 +53,12 @@
                             <select v-model="candidatos.Afrontar_Problemas"><option>SI</option><option>NO</option></select>
                             <br>
 
-                        </div>    
+                        </div>
+                    </div>
                     <button type="submit">Enviar Informacón</button>
-                    
-                    </form>
-                </div>
-            
-
-        </div>
-
+                </form>
+          </div>
     </div>
-
 </template>
 
 <script>
@@ -191,9 +186,9 @@ export default {
     }
     .candidatoIn_user select{
         width: 30%;
-        height: 25;
+        height: 30;
         margin: 5px;
-        padding: 10px 20px;
+        
     }
 
     .candidatoIn_user input{
