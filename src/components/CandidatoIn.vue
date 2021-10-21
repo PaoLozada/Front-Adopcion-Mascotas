@@ -158,7 +158,7 @@ export default {
     .DatosPersonales{
         display: flex;
         flex-direction: column;
-        margin: 30;
+        margin: 50;
         width: 50%;
         height: 70%;
         padding: 10px;
@@ -167,7 +167,7 @@ export default {
     .Complementarios{
         display: flex;
         flex-direction: column;
-        margin: 30;
+        margin: 50;
         width: 50%;
         height: 70%;
         padding: 10px;
@@ -191,8 +191,7 @@ export default {
     }
     .candidatoIn_user select{
         width: 30%;
-        height: 20;
-        
+        height: 25;
         margin: 5px;
         
     }
