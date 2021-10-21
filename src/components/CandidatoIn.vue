@@ -151,7 +151,6 @@ export default {
     .DatosPersonales{
         display: flex;
         flex-direction: column;
-        margin: 50;
         width: 50%;
         height: 70%;
         
@@ -160,7 +159,6 @@ export default {
     .Complementarios{
         display: flex;
         flex-direction: column;
-        margin: 50;
         width: 50%;
         height: 70%;
         
