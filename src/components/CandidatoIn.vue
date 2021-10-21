@@ -173,6 +173,7 @@ export default {
         height: 85%;
         margin: 0;
         padding: 0%;
+        align-items: center;
 
     }
 
