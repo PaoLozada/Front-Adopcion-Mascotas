@@ -29,7 +29,7 @@
                 <div class = "Complementarios">
 
                         <form v-on:submit.prevent="processCandidatoIn" >
-                            <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label><input type="text" v-model="candidatos.Has_Tenido_Mascotas" >
+                            <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label><select  v-model="candidatos.Has_Tenido_Mascotas" ><option>SI</option><option>NO</option>
                             <br>
                             
                             <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label><input type="text" v-model="candidatos.Seras_Responsable" >
@@ -44,7 +44,7 @@
                             <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label><input type="email" v-model="candidatos.Recursos_Economicos" >
                             <br>
 
-                            <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label><input type="number" v-model="candidatos.Afrontar_Problemas">
+                            <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label><input type="text" v-model="candidatos.Afrontar_Problemas">
                             <br>
 
                             
