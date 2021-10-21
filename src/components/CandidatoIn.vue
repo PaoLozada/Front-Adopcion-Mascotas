@@ -6,23 +6,23 @@
                     <div class = "DatosPersonales">
 
                         <form v-on:submit.prevent="processCandidatoIn" >
-                            <label for="Numero_Identificacion">Número de Identificación</label><input type="text" v-model="candidatos.Numero_Identificacion" >
+                            <label for="Numero_Identificacion">Número de Identificación</label><input type="text" v-model="candidatos.Numero_Identificacion">
                             <br>
                             
-                            <label for="Nombre_Completo">Nombres y Apellidos</label><input type="text" v-model="candidatos.Nombre_Completo" >
+                            <label for="Nombre_Completo">Nombres y Apellidos</label><input type="text" v-model="candidatos.Nombre_Completo">
                             <br>
                             
-                            <label for="Direccion">Dirección</label><input type="text" v-model="candidatos.Direccion" >
+                            <label for="Direccion">Dirección</label><input type="text" v-model="candidatos.Direccion">
                             <br>
                             
-                            <label for="Numero_Contacto">Númmero de Contacto</label><input type="text" v-model="candidatos.Numero_Contacto" >
+                            <label for="Numero_Contacto">Númmero de Contacto</label><input type="text" v-model="candidatos.Numero_Contacto">
                             <br>
 
                             <label for="Email">E-mail</label><input type="email" v-model="candidatos.Email">
                             <br>
 
                             <label for="Edad">Edad</label><input type="number" v-model="candidatos.Edad" >
-               
+                            <br>
                             
                         </form>
                 </div>
@@ -30,20 +30,20 @@
 
                         <form v-on:submit.prevent="processCandidatoIn" >
                             <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label><select  v-model="candidatos.Has_Tenido_Mascotas" ><option>SI</option><option>NO</option></select>
-                            
-                            <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label><input type="text" v-model="candidatos.Seras_Responsable" >
+                            <br>
+                            <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label><select v-model="candidatos.Seras_Responsable" ><option>SI</option><option>NO</option></select>
                             <br>
                             
-                            <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label><input type="text" v-model="candidatos.Tienes_Espacio" >
+                            <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label><select v-model="candidatos.Tienes_Espacio" ><option>SI</option><option>NO</option></select>
                             <br>
                             
-                            <label for="Tienes_Tiempo">¿Cuentas con tiempo suficiente?</label><input type="text" v-model="candidatos.Tienes_Tiempo">
+                            <label for="Tienes_Tiempo">¿Cuentas con tiempo suficiente?</label><select v-model="candidatos.Tienes_Tiempo"><option>SI</option><option>NO</option></select>
                             <br>
 
-                            <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label><input type="email" v-model="candidatos.Recursos_Economicos" >
+                            <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label><select v-model="candidatos.Recursos_Economicos" ><option>SI</option><option>NO</option></select>
                             <br>
 
-                            <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label><input type="text" v-model="candidatos.Afrontar_Problemas">
+                            <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label><select v-model="candidatos.Afrontar_Problemas"><option>SI</option><option>NO</option></select>
                             <br>
 
                             
