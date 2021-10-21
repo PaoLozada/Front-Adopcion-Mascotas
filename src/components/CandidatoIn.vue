@@ -153,8 +153,8 @@ export default {
         display: flex;
         flex-direction: column;
         width: 50%;
-        height: 40%;
-        margin: 0;
+        height: 90%;
+        margin: 10%;
         padding: 0%;
 
     }
@@ -162,15 +162,15 @@ export default {
         display: flex;
         flex-direction: column;
         width: 50%;
-        height: 40%;
-        margin: 0;
+        height: 90%;
+        margin: 10%;
         padding: 0%;
     }
     .Encuesta{
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 60%;
+        height: 70%;
         margin: 0;
         padding: 0%;
 
