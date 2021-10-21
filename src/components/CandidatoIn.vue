@@ -179,7 +179,7 @@ export default {
     .candidatoIn_user h2{
         color: #f0f4f8;
         font-size: 30px;
-        margin: 0;
+        margin: 5%;
         padding: 0%;
 
     }
@@ -188,7 +188,7 @@ export default {
         width: 90%;
         display: flex;
         flex-direction: column;
-        height: 70;
+        height: 90;
         justify-content: center;
         align-items: center;
         margin: 0;
