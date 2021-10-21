@@ -190,7 +190,7 @@ export default {
     .candidatoIn_user select{
         width: 30%;
         height: 15;
-        margin: 5px;
+      
         
     }
 
@@ -200,7 +200,7 @@ export default {
 
         box-sizing: border-box;
         
-        margin: 5px;
+        
 
         border: 1px solid #f5f0f1;
     }
