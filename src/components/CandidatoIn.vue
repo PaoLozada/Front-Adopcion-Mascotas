@@ -154,7 +154,7 @@ export default {
         margin: 50;
         width: 50%;
         height: 70%;
-        padding: 10px;
+        
 
     }
     .Complementarios{
@@ -163,7 +163,7 @@ export default {
         margin: 50;
         width: 50%;
         height: 70%;
-        padding: 10px;
+        
 
     }
     .Encuesta{
@@ -193,7 +193,7 @@ export default {
         width: 30%;
         height: 15;
         margin: 5px;
-        padding: 5px;
+        
     }
 
     .candidatoIn_user input{
@@ -201,7 +201,7 @@ export default {
         width: 100%;
 
         box-sizing: border-box;
-        padding: 10px 20px;
+        
         margin: 5px;
 
         border: 1px solid #f5f0f1;
