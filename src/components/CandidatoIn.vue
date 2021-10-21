@@ -191,8 +191,7 @@ export default {
     }
     .candidatoIn_user select{
         width: 30%;
-       
-        padding: 10px 20px;
+        height: 10;
         
     }
 
