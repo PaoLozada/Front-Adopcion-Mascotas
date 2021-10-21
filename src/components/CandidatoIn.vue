@@ -3,9 +3,9 @@
         <div class="container_CandidatoIn_candidato">
             <h2>Diligenciar Encuesta</h2>
                 <div class = "Encuesta">
-                    <div class = "DatosPersonales">
-
-                        <form v-on:submit.prevent="processCandidatoIn" >
+                    <form v-on:submit.prevent="processCandidatoIn" >
+                        <div class = "DatosPersonales">
+                        
                             <label for="Numero_Identificacion">Número de Identificación</label><input type="text" v-model="candidatos.Numero_Identificacion">
                             <br>
                             
@@ -23,12 +23,11 @@
 
                             <label for="Edad">Edad</label><input type="number" v-model="candidatos.Edad" >
                             <br>
-                            
-                        </form>
-                </div>
-                <div class = "Complementarios">
-
-                        <form v-on:submit.prevent="processCandidatoIn" >
+                
+                     
+                        </div>
+                        <div class = "Complementarios">
+                        
                             <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label>
                             <br>
                             <select  v-model="candidatos.Has_Tenido_Mascotas" ><option>SI</option><option>NO</option></select>
@@ -54,12 +53,11 @@
                             <select v-model="candidatos.Afrontar_Problemas"><option>SI</option><option>NO</option></select>
                             <br>
 
-                            
-                        </form>
+                        </div>    
+                    <button type="submit">Enviar Informacón</button>
+                    
+                    </form>
                 </div>
-                <button type="submit">Enviar Informacón</button>
-
-            </div>
             
 
         </div>
@@ -187,6 +185,8 @@ export default {
 
     .candidatoIn_user form{
         width: 100%;
+        display: flex;
+        flex-direction: row;
         
     }
     .candidatoIn_user select{
