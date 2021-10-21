@@ -83,12 +83,12 @@ export default {
                 Numero_Contacto: "",
                 Email: "",
                 Edad: 0,
-                Has_Tenido_Mascotas:"", 
-                Seras_Responsable:"", 
-                Tienes_Espacio:"", 
-                Tienes_Tiempo:"",
-                Recursos_Economicos:"",
-                Afrontar_Problemas:""                
+                Has_Tenido_Mascotas: "", 
+                Seras_Responsable: "", 
+                Tienes_Espacio: "", 
+                Tienes_Tiempo: "",
+                Recursos_Economicos: "",
+                Afrontar_Problemas: "",               
                
             }
         }
