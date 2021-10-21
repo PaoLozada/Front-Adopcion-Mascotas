@@ -140,8 +140,8 @@ export default {
     .container_CandidatoIn_candidato{
         border: 3px solid  #f2f4f7;
         border-radius: 10px;
-        width: 100%;
-        height: 75%;
+        width: 80%;
+        height: 85%;
 
         display: flex;
         flex-direction: column;
@@ -154,6 +154,7 @@ export default {
         margin: 10;
         width: 50%;
         height: 70%;
+        padding: 10px;
 
     }
     .Complementarios{
@@ -162,6 +163,7 @@ export default {
         margin: 10;
         width: 50%;
         height: 70%;
+        padding: 10px;
 
     }
     .Encuesta{
@@ -172,11 +174,12 @@ export default {
 
     .candidatoIn_user h2{
         color: #f0f4f8;
+        font-size: 30px;
 
     }
 
     .candidatoIn_user form{
-        width: 90%;
+        width: 100%;
         
     }
 
@@ -196,7 +199,7 @@ export default {
     }
 
     .candidatoIn_user button{
-        width: 40%;
+        width: 20%;
         height: 30px;
 
         color: #E5E7E9;
