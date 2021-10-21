@@ -233,7 +233,7 @@ export default {
 
         border-radius: 5px;
         padding: 10px 25px;
-        margin: 5px 0 5px 0;
+        margin: 5px 0 15px 0;
     }
 
     .candidatoIn_user button:hover{
