@@ -29,27 +29,27 @@
                         <div class = "Complementarios">
                         
                             <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label>
-                            <br>
+                            
                             <select  v-model="candidatos.Has_Tenido_Mascotas" ><option>SI</option><option>NO</option></select>
                             <br>
                             <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label>
-                            <br>
+                            
                             <select v-model="candidatos.Seras_Responsable" ><option>SI</option><option>NO</option></select>
                             <br>                            
                             <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label>
-                            <br>
+                            
                             <select v-model="candidatos.Tienes_Espacio" ><option>SI</option><option>NO</option></select>
                             <br>                            
                             <label for="Tienes_Tiempo">¿Cuentas con tiempo suficiente?</label>
-                            <br>
+                            
                             <select v-model="candidatos.Tienes_Tiempo"><option>SI</option><option>NO</option></select>
                             <br>
                             <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label>
-                            <br>
+                           
                             <select v-model="candidatos.Recursos_Economicos" ><option>SI</option><option>NO</option></select>
                             <br>
                             <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label>
-                            <br>
+                            
                             <select v-model="candidatos.Afrontar_Problemas"><option>SI</option><option>NO</option></select>
                             <br>
 
