@@ -176,12 +176,12 @@ export default {
     }
 
     .candidatoIn_user form{
-        width: 70%;
+        width: 90%;
         
     }
 
     .candidatoIn_user input{
-        height: 40px;
+        height: 25px;
         width: 100%;
 
         box-sizing: border-box;
@@ -190,10 +190,14 @@ export default {
 
         border: 1px solid #f5f0f1;
     }
+    .candidatoIn_user label{
+        width: 100%;
+        color: #fff;
+    }
 
     .candidatoIn_user button{
-        width: 100%;
-        height: 40px;
+        width: 40%;
+        height: 30px;
 
         color: #E5E7E9;
         background: #11743a;
