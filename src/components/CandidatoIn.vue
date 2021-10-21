@@ -193,7 +193,7 @@ export default {
         width: 30%;
         height: 25;
         margin: 5px;
-        
+        padding: 10px 20px;
     }
 
     .candidatoIn_user input{
