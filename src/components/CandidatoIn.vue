@@ -184,12 +184,14 @@ export default {
         width: 90%;
         display: flex;
         flex-direction: column;
-        height: 75;
+        height: 65;
+        justify-content: center;
+        align-items: center;
         
     }
     .candidatoIn_user select{
         width: 30%;
-        height: 20;
+        height: 15;
         margin: 5px;
         padding: 5px;
     }
