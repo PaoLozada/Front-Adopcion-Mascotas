@@ -6,22 +6,22 @@
                     <div class = "DatosPersonales">
 
                         <form v-on:submit.prevent="processCandidatoIn" >
-                            <label for="Número de Identificación">Username</label><input type="text" v-model="candidatos.Numero_Identificacion" >
+                            <label for="Numero_Identificacion">Número de Identificación</label><input type="text" v-model="candidatos.Numero_Identificacion" >
                             <br>
                             
-                            <label for="Nombres y Apellidos">Username</label><input type="text" v-model="candidatos.Nombre_Completo" >
+                            <label for="Nombre_Completo">Nombres y Apellidos</label><input type="text" v-model="candidatos.Nombre_Completo" >
                             <br>
                             
-                            <label for="Dirección">Username</label><input type="text" v-model="candidatos.Direccion" >
+                            <label for="Direccion">Dirección</label><input type="text" v-model="candidatos.Direccion" >
                             <br>
                             
-                            <label for="Númmero de Contacto">Username</label><input type="text" v-model="candidatos.Numero_Contacto" >
+                            <label for="Numero_Contacto">Númmero de Contacto</label><input type="text" v-model="candidatos.Numero_Contacto" >
                             <br>
 
-                            <label for="Email">Username</label><input type="email" v-model="candidatos.Email">
+                            <label for="Email">E-mail</label><input type="email" v-model="candidatos.Email">
                             <br>
 
-                            <label for="Edad">Username</label><input type="number" v-model="candidatos.Edad" >
+                            <label for="Edad">Edad</label><input type="number" v-model="candidatos.Edad" >
                
                             
                         </form>
@@ -29,22 +29,22 @@
                 <div class = "Complementarios">
 
                         <form v-on:submit.prevent="processCandidatoIn" >
-                            <label for="Has tenido o tienes mascota">Username</label><input type="text" v-model="candidatos.Has_Tenido_Mascotas" >
+                            <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label><input type="text" v-model="candidatos.Has_Tenido_Mascotas" >
                             <br>
                             
-                            <label for="¿Podrás ser un adoptante responsable?">Username</label><input type="text" v-model="candidatos.Seras_Responsable" >
+                            <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label><input type="text" v-model="candidatos.Seras_Responsable" >
                             <br>
                             
-                            <label for="¿Tienes un espacio adecuado para tener una mascota?">Username</label><input type="text" v-model="candidatos.Tienes_Espacio" >
+                            <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label><input type="text" v-model="candidatos.Tienes_Espacio" >
                             <br>
                             
-                            <label for="¿Cuentas con tiempo suficiente ">Username</label><input type="text" v-model="candidatos.Tienes_Tiempo">
+                            <label for="Tienes_Tiempo">¿Cuentas con tiempo suficiente?</label><input type="text" v-model="candidatos.Tienes_Tiempo">
                             <br>
 
-                            <label for="¿Puedes permitirte económicamente una adopción?">Username</label><input type="email" v-model="candidatos.Recursos_Economicos" >
+                            <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label><input type="email" v-model="candidatos.Recursos_Economicos" >
                             <br>
 
-                            <label for="Estás preparado para los problemas que puedan ocasionar?">Username</label><input type="number" v-model="candidatos.Afrontar_Problemas">
+                            <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label><input type="number" v-model="candidatos.Afrontar_Problemas">
                             <br>
 
                             
@@ -140,9 +140,9 @@ export default {
     .container_CandidatoIn_candidato{
         border: 3px solid  #f2f4f7;
         border-radius: 10px;
-        width: 25%;
-        height: 60%;
-        
+        width: 100%;
+        height: 75%;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -152,12 +152,16 @@ export default {
         display: flex;
         flex-direction: column;
         margin: 10;
+        width: 50%;
+        height: 70%;
 
     }
     .Complementarios{
         display: flex;
         flex-direction: column;
         margin: 10;
+        width: 50%;
+        height: 70%;
 
     }
     .Encuesta{
