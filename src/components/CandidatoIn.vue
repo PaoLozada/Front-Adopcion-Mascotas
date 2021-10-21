@@ -142,7 +142,8 @@ export default {
         border-radius: 10px;
         width: 70%;
         height: 85%;
-
+        margin: 0;
+        padding: 0%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -153,7 +154,8 @@ export default {
         flex-direction: column;
         width: 50%;
         height: 40%;
-        
+        margin: 0;
+        padding: 0%;
 
     }
     .Complementarios{
@@ -161,14 +163,16 @@ export default {
         flex-direction: column;
         width: 50%;
         height: 40%;
-        
-
+        margin: 0;
+        padding: 0%;
     }
     .Encuesta{
         display: flex;
         flex-direction: row;
         width: 100%;
         height: 60%;
+        margin: 0;
+        padding: 0%;
 
     }
 
@@ -185,11 +189,15 @@ export default {
         height: 65;
         justify-content: center;
         align-items: center;
+        margin: 0;
+        padding: 0%;
         
     }
     .candidatoIn_user select{
         width: 30%;
         height: 15;
+        margin: 0;
+        padding: 0%;
       
         
     }
@@ -199,7 +207,8 @@ export default {
         width: 100%;
 
         box-sizing: border-box;
-        
+        margin: 0;
+        padding: 0%;
         
 
         border: 1px solid #f5f0f1;
@@ -207,6 +216,8 @@ export default {
     .candidatoIn_user label{
         width: 100%;
         color: #fff;
+        margin: 0;
+        padding: 0%;
     }
 
     .candidatoIn_user button{
