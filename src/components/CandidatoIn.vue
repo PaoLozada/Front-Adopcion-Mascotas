@@ -81,7 +81,7 @@ export default {
                 Tienes_Espacio: "", 
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
-                Afrontar_Problemas: "",               
+                Afrontar_Problemas: ""              
                
             }
         }
@@ -108,7 +108,7 @@ export default {
                         Tienes_Espacio:this.candidatos.Tienes_Espacio,
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
-                        Afrontar_Problemas:this.candidatos.Afrontar_Problemas,
+                        Afrontar_Problemas:this.candidatos.Afrontar_Problemas
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
@@ -154,7 +154,7 @@ export default {
         flex-direction: column;
         width: 50%;
         height: 90%;
-        margin-right:20%;
+        margin-right:5%;
         padding: 0%;
 
     }
@@ -163,7 +163,7 @@ export default {
         flex-direction: column;
         width: 50%;
         height: 90%;
-        margin-left: 20%;
+        margin-left: 5%;
         padding: 0%;
     }
     .Encuesta{
