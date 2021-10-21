@@ -115,7 +115,7 @@ export default {
                         Tienes_Espacio:this.candidatos.Tienes_Espacio,
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
-                        Afrontar_Problemas:this.candidatos.Afrontar_Problemas   
+                        Afrontar_Problemas:this.candidatos.Afrontar_Problemas,  
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
