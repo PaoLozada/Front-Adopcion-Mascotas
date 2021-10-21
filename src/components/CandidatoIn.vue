@@ -152,7 +152,7 @@ export default {
         display: flex;
         flex-direction: column;
         width: 50%;
-        height: 70%;
+        height: 40%;
         
 
     }
@@ -160,7 +160,7 @@ export default {
         display: flex;
         flex-direction: column;
         width: 50%;
-        height: 70%;
+        height: 40%;
         
 
     }
