@@ -30,27 +30,27 @@
                         
                             <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label>
                             
-                            <select  v-model="candidatos.Has_Tenido_Mascotas" ><option>SI</option><option>NO</option></select>
+                            <select  v-model="candidatos.Has_Tenido_Mascotas" ><option id="respuestaUno" value=1>SI</option><option id="respuestaUno" value=0>NO</option ></select>
                             <br>
                             <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label>
                             
-                            <select v-model="candidatos.Seras_Responsable" ><option>SI</option><option>NO</option></select>
+                            <select v-model="candidatos.Seras_Responsable" ><option id="respuestaDos" value=1>SI</option><option id="respuestaDos" value=0>NO</option></select>
                             <br>                            
                             <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label>
                             
-                            <select v-model="candidatos.Tienes_Espacio" ><option>SI</option><option>NO</option></select>
+                            <select v-model="candidatos.Tienes_Espacio" ><option id="respuestaTres" value=1>SI</option><option id="respuestaTres" value=0>NO</option></select>
                             <br>                            
                             <label for="Tienes_Tiempo">¿Cuentas con tiempo suficiente?</label>
                             
-                            <select v-model="candidatos.Tienes_Tiempo"><option>SI</option><option>NO</option></select>
+                            <select v-model="candidatos.Tienes_Tiempo"><option id="respuestaCuatro" value=1>SI</option><option id="respuestaCuatro" value=0>NO</option></select>
                             <br>
                             <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label>
                            
-                            <select v-model="candidatos.Recursos_Economicos" ><option>SI</option><option>NO</option></select>
+                            <select v-model="candidatos.Recursos_Economicos" ><option id="respuestaCinco" value=1>SI</option><option id="respuestaCinco" value=0>NO</option></select>
                             <br>
                             <label for="Afrontar_Problemas">¿Estás preparado para los problemas que puedan ocasionar?</label>
                             
-                            <select v-model="candidatos.Afrontar_Problemas"><option>SI</option><option>NO</option></select>
+                            <select v-model="candidatos.Afrontar_Problemas"><option id="respuestaSeis" value=1>SI</option><option id="respuestaSeis" value=0>NO</option></select>
                             <br>
 
                         </div>
@@ -63,6 +63,7 @@
 
 <script>
 import axios from 'axios';
+
 
 export default {
     name: "CandidatoIn",
@@ -81,14 +82,26 @@ export default {
                 Tienes_Espacio: "", 
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
-                Afrontar_Problemas: ""              
-               
+                Afrontar_Problemas: "",              
+                Resultado_Prueba:0,
             }
         }
     },
 
+    
+
 
     methods: {
+        calcular: function(){
+            var respuesta1 = document.getElementById("respuestaUno").value;
+            var respuesta2 = document.getElementById("respuestaDos").value;
+            var respuesta3 = document.getElementById("respuestaTres").value;
+            var respuesta4 = document.getElementById("respuestaCuatro").value;
+            var respuesta5 = document.getElementById("respuestaCinco").value;
+            var respuesta6 = document.getElementById("respuestaSeis").value;
+            var suma = respuesta1+respuesta2+respuesta3+respuesta4+respuesta5+respuesta6;
+            return(suma)
+        },
         processCandidatoIn: function(){
             axios.post(
                 "https://adopcionesmascotas.herokuapp.com/candidatos/", 
@@ -108,7 +121,8 @@ export default {
                         Tienes_Espacio:this.candidatos.Tienes_Espacio,
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
-                        Afrontar_Problemas:this.candidatos.Afrontar_Problemas
+                        Afrontar_Problemas:this.candidatos.Afrontar_Problemas,
+                        Resultado_Prueba: calcular()
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
