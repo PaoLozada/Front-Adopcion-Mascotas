@@ -5,13 +5,13 @@
             <h2>Registrar Mascota</h2>
 
             <form v-on:submit.prevent="processMascotaIn" >
-                <input type="text" v-model="mascotas.Nombre" placeholder="Nombre">
+                <label for="Nombre">Nombre:</label><input type="text" v-model="mascotas.Nombre">
                 <br>
                 
-                <input type="number" v-model="mascotas.Edad" placeholder="Edad">
+                <label for="Edad">Edad:</label><input type="number" v-model="mascotas.Edad">
                 <br>
                 
-                <input type="Boolean" v-model="mascotas.Disponibilidad" placeholder="Disponibilidad">
+                <label for="Disponibilidad">Disponibilidad:</label><input type="Boolean" v-model="mascotas.Disponibilidad">
                
 
                 <button type="submit">Registrar</button>

@@ -185,7 +185,7 @@ export default {
 
     .candidatoIn_user input{
         height: 25px;
-        width: 100%;
+        width: 80%;
 
         box-sizing: border-box;
         padding: 10px 20px;
