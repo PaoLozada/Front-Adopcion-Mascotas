@@ -123,7 +123,7 @@ export default {
     },
     completedCandidatoIn: function (data) {
       alert("Datos enviados con éxito");
-      this.$router.push({ name: "logIn" });
+     
     },
     
   },
