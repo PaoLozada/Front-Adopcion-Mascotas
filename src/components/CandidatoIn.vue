@@ -30,19 +30,19 @@
                         
                             <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label>
                             
-                            <select  v-model="candidatos.Has_Tenido_Mascotas" ><option selected="selected" id="respuestaUno" value=1>SI</option><option id="respuestaUno" value=0>NO</option ></select>
+                            <select  v-model="candidatos.Has_Tenido_Mascotas" ><option selected="true" id="respuestaUno" value=1>SI</option><option id="respuestaUno" value=0>NO</option ></select>
                             <br>
                             <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label>
                             
-                            <select v-model="candidatos.Seras_Responsable" ><option selected="selected" id="respuestaDos" value=1>SI</option><option id="respuestaDos" value=0>NO</option></select>
+                            <select v-model="candidatos.Seras_Responsable" ><option  id="respuestaDos" value=1 selected="selected">SI</option><option id="respuestaDos" value=0>NO</option></select>
                             <br>                            
                             <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label>
                             
-                            <select v-model="candidatos.Tienes_Espacio" ><option selected="selected" id="respuestaTres" value=1>SI</option><option id="respuestaTres" value=0>NO</option></select>
+                            <select v-model="candidatos.Tienes_Espacio" ><option  id="respuestaTres" value=1 selected>SI</option><option id="respuestaTres" value=0>NO</option></select>
                             <br>                            
                             <label for="Tienes_Tiempo">¿Cuentas con tiempo suficiente?</label>
                             
-                            <select v-model="candidatos.Tienes_Tiempo"><option selected="selected" id="respuestaCuatro" value=1>SI</option><option id="respuestaCuatro" value=0>NO</option></select>
+                            <select v-model="candidatos.Tienes_Tiempo"><option id="respuestaCuatro" value=1 selected="true">SI</option><option id="respuestaCuatro" value=0>NO</option></select>
                             <br>
                             <label for="Recursos_Economicos">¿Puedes permitirte económicamente una adopción?</label>
                            
