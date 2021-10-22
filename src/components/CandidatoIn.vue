@@ -93,7 +93,7 @@ export default {
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
                 Afrontar_Problemas: "",              
-                Resultado_Prueba: resultado,
+                Resultado_Prueba: resultado.value,
             }
         }
     },
