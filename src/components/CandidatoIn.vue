@@ -92,7 +92,7 @@ export default {
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
                 Afrontar_Problemas: "",              
-                Resultado_Prueba: calcular().value,
+                Resultado_Prueba: 0,
             }
         }
     },
