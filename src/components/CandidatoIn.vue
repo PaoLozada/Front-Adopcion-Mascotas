@@ -123,7 +123,6 @@ export default {
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
-                    $('#main-contact-form').trigger("reset");
                 })
                 .catch((error) => {
                     console.log(error)
