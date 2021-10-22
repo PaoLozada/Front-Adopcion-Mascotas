@@ -78,6 +78,7 @@ export default {
             return(suma)
         },
     data: function(){
+        var resultado = calcular();
         return {
             candidatos: {
                 Numero_Identificacion: "",
@@ -92,7 +93,7 @@ export default {
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
                 Afrontar_Problemas: "",              
-                Resultado_Prueba: 0,
+                Resultado_Prueba: resultado,
             }
         }
     },
@@ -119,6 +120,7 @@ export default {
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
                         Afrontar_Problemas:this.candidatos.Afrontar_Problemas,
+                        
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
