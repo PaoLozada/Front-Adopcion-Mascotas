@@ -93,7 +93,7 @@ export default {
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
                 Afrontar_Problemas: "",              
-                Resultado_Prueba:calcular(),
+                Resultado_Prueba: calcular(),
             }
         }
     },
@@ -120,7 +120,6 @@ export default {
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
                         Afrontar_Problemas:this.candidatos.Afrontar_Problemas,
-                        Resultado_Prueba: this.candidatos.Has_Tenido_Mascotas ,
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
