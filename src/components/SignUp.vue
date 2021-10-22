@@ -56,6 +56,9 @@ export default {
                         username: this.user.username,
                         token_access: result.data.access,
                         token_refresh: result.data.refresh,
+                        password: this.user.password,
+                        email: this.user.email,
+                        name: this.user.name,
                     }
                     
                     this.$emit('completedSignUp', dataSignUp)
