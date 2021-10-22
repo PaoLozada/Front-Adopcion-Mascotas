@@ -119,7 +119,7 @@ export default {
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
                         Afrontar_Problemas:this.candidatos.Afrontar_Problemas,
-                        Resultado_Prueba: calcular()
+                        Resultado_Prueba: this.calcular(),
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
