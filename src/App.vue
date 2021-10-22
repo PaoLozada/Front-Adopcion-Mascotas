@@ -98,6 +98,7 @@ export default {
     },
     loadCandidatoIn: function () {
       this.$router.push({ name: "candidatoIn" });
+      this.verifyAuth();
     },
     loadHome: function () {
       this.$router.push({ name: "home" });

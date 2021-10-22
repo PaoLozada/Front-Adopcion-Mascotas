@@ -78,7 +78,6 @@ export default {
             return(suma)
         },
     data: function(){
-        var resultado = calcular();
         return {
             candidatos: {
                 Numero_Identificacion: "",
