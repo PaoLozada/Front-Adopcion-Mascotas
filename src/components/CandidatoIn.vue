@@ -119,10 +119,11 @@ export default {
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
                         Afrontar_Problemas:this.candidatos.Afrontar_Problemas,
-                        Resultado_Prueba: this.calcular(),
+                        Resultado_Prueba: this.candidatos.calcular(),
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
+                    $('#main-contact-form').trigger("reset");
                 })
                 .catch((error) => {
                     console.log(error)
