@@ -62,9 +62,8 @@
 </template>
 
 <script>
+
 import axios from 'axios';
-
-
 export default {
     name: "CandidatoIn",
 
@@ -93,7 +92,7 @@ export default {
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
                 Afrontar_Problemas: "",              
-                Resultado_Prueba: calcular(),
+                Resultado_Prueba: 0,
             }
         }
     },
