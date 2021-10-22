@@ -117,7 +117,7 @@ export default {
     },
     completedSignUp: function (data) {
       alert("Registro Exitoso");
-      this.completedLogIn(data);
+      
     },
     completedMascotaIn: function (data) {
       alert("Mascota registrada con éxito");
