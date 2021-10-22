@@ -6,22 +6,22 @@
                     <div class = "Encuesta">
                         <div class = "DatosPersonales">
                         
-                            <label for="Numero_Identificacion">Número de Identificación</label><input type="text" v-model="candidatos.Numero_Identificacion">
+                            <label for="Numero_Identificacion">Número de Identificación</label><input required type="text" v-model="candidatos.Numero_Identificacion">
                             <br>
                             
-                            <label for="Nombre_Completo">Nombres y Apellidos</label><input type="text" v-model="candidatos.Nombre_Completo">
+                            <label for="Nombre_Completo">Nombres y Apellidos</label><input required type="text" v-model="candidatos.Nombre_Completo">
                             <br>
                             
-                            <label for="Direccion">Dirección</label><input type="text" v-model="candidatos.Direccion">
+                            <label for="Direccion">Dirección</label><input required type="text" v-model="candidatos.Direccion">
                             <br>
                             
-                            <label for="Numero_Contacto">Número de Contacto</label><input type="text" v-model="candidatos.Numero_Contacto">
+                            <label for="Numero_Contacto">Número de Contacto</label><input required type="text" v-model="candidatos.Numero_Contacto">
                             <br>
 
-                            <label for="Email">E-mail</label><input type="email" v-model="candidatos.Email">
+                            <label for="Email">E-mail</label><input required type="email" v-model="candidatos.Email">
                             <br>
 
-                            <label for="Edad">Edad</label><input type="number" v-model="candidatos.Edad" >
+                            <label for="Edad">Edad</label><input required type="number" v-model="candidatos.Edad" >
                             <br>
                 
                      
