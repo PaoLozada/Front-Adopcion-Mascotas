@@ -82,17 +82,14 @@ export default {
                 Tienes_Espacio: "", 
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
-                Afrontar_Problemas: "",              
-                Resultado_Prueba:0,
+                Afrontar_Problemas: ""/*,              
+                Resultado_Prueba:0,*/
             }
         }
     },
 
-    
-
-
     methods: {
-        calcular: function(){
+        /*calcular: function(){
             var respuesta1 = document.getElementById("respuestaUno").value;
             var respuesta2 = document.getElementById("respuestaDos").value;
             var respuesta3 = document.getElementById("respuestaTres").value;
@@ -101,7 +98,7 @@ export default {
             var respuesta6 = document.getElementById("respuestaSeis").value;
             var suma = respuesta1+respuesta2+respuesta3+respuesta4+respuesta5+respuesta6;
             return(suma)
-        },
+        },*/
         processCandidatoIn: function(){
             axios.post(
                 "https://adopcionesmascotas.herokuapp.com/candidatos/", 
@@ -122,7 +119,7 @@ export default {
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
                         Afrontar_Problemas:this.candidatos.Afrontar_Problemas,
-                        Resultado_Prueba: calcular()
+                        //Resultado_Prueba: calcular()
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
