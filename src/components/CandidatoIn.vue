@@ -67,16 +67,7 @@ import axios from 'axios';
 export default {
     name: "CandidatoIn",
 
-    calcular: function(){
-            var respuesta1 = document.getElementById("respuestaUno").value;
-            var respuesta2 = document.getElementById("respuestaDos").value;
-            var respuesta3 = document.getElementById("respuestaTres").value;
-            var respuesta4 = document.getElementById("respuestaCuatro").value;
-            var respuesta5 = document.getElementById("respuestaCinco").value;
-            var respuesta6 = document.getElementById("respuestaSeis").value;
-            var suma = respuesta1+respuesta2+respuesta3+respuesta4+respuesta5+respuesta6;
-            return(suma)
-        },
+    
     data: function(){
         return {
             candidatos: {
@@ -92,12 +83,23 @@ export default {
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
                 Afrontar_Problemas: "",              
-                Resultado_Prueba: 0,
+                Resultado_Prueba:calcular(),
             }
         }
     },
 
     methods: {
+
+        calcular: function(){
+            let respuesta1 = document.getElementById("respuestaUno").value;
+            let respuesta2 = document.getElementById("respuestaDos").value;
+            let respuesta3 = document.getElementById("respuestaTres").value;
+            let respuesta4 = document.getElementById("respuestaCuatro").value;
+            let respuesta5 = document.getElementById("respuestaCinco").value;
+            let respuesta6 = document.getElementById("respuestaSeis").value;
+            let suma = respuesta1+respuesta2+respuesta3+respuesta4+respuesta5+respuesta6;
+            return(suma)
+        },
         
         processCandidatoIn: function(){
             axios.post(
