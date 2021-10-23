@@ -83,23 +83,23 @@ export default {
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
                 Afrontar_Problemas: "",              
-                Resultado_Prueba:calcular(),
+                Resultado_Prueba:function(){
+                    let respuesta1 = document.getElementById("respuestaUno").value;
+                    let respuesta2 = document.getElementById("respuestaDos").value;
+                    let respuesta3 = document.getElementById("respuestaTres").value;
+                    let respuesta4 = document.getElementById("respuestaCuatro").value;
+                    let respuesta5 = document.getElementById("respuestaCinco").value;
+                    let respuesta6 = document.getElementById("respuestaSeis").value;
+                    let suma = respuesta1+respuesta2+respuesta3+respuesta4+respuesta5+respuesta6;
+                    return(suma)
+                }
             }
         }
     },
 
     methods: {
 
-        calcular: function(){
-            let respuesta1 = document.getElementById("respuestaUno").value;
-            let respuesta2 = document.getElementById("respuestaDos").value;
-            let respuesta3 = document.getElementById("respuestaTres").value;
-            let respuesta4 = document.getElementById("respuestaCuatro").value;
-            let respuesta5 = document.getElementById("respuestaCinco").value;
-            let respuesta6 = document.getElementById("respuestaSeis").value;
-            let suma = respuesta1+respuesta2+respuesta3+respuesta4+respuesta5+respuesta6;
-            return(suma)
-        },
+        
         
         processCandidatoIn: function(){
             axios.post(

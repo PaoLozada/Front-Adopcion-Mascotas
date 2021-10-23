@@ -6,7 +6,7 @@
         <div class="contenedorMascotas">
             
             <div class = "caja_mascota">
-                <img src= "https://planetamascotas.files.wordpress.com/2010/06/criollo-blog.jpg" width="150" height="150">
+                <img src= "https://i.ibb.co/jzKrR6J/Perrito1.jpg" alt="Perrito1" border="0" width="150" height="150">
                 <h3> Nombre: Tomas</h3>
                 <h3> Edad: 3 meses</h3>
             </div>
