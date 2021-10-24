@@ -109,7 +109,7 @@ export default {
   border-radius: 10px;
   width: 15%;
   height: 40%;
-  background: #000;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
