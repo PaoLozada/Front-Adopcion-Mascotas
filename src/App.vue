@@ -2,11 +2,11 @@
   <div id="app" class="app">
     <div class="header">
       <img
-        src="https://images.vexels.com/media/users/3/236182/isolated/preview/ad61cf5b323286677b8bd8c48c7c6e94-cabeca-de-cachorro-yorkshire-terrier-desenhada-a-mao.png"
-        width="170"
-        height="170"
+        src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png"
+        width="230"
+        height="230"
       />
-      <h1>Adopta un Cachorro</h1>
+      <h1>ADOPTA UN CACHORRO</h1>
       <nav>
         <button v-if="is_auth" v-on:click="logOut">Cerrar Sesión</button>
         <button v-if="!is_auth" v-on:click="loadLogIn">Principal</button>
@@ -145,39 +145,41 @@ body {
   width: 100%;
   height: 15vh;
   min-height: 100px;
-  
+  position: relative;
   background-image: url("https://image.shutterstock.com/image-vector/dog-paw-seamless-pattern-vector-260nw-1386908894.jpg");
-  color: rgb(51, 7, 102);
+  color: #000;
   display: flex;
   justify-content: left;
   align-items: center;
 }
 .header h1 {
-  width: 50%;
+  width: 60%;
   text-align: left;
-  font-size: 60px;
+  font-size: 65px;
   background-color: rgb(255, 255, 255);
   display: flex;
+  font-family: fantasy;
 }
 
 .header nav {
   height: 100%;
-  width: 50%;
+  width: 40%;
 
   display: flex;
   justify-content: right;
-  align-items: center;
+  align-items:flex-end;
 
   font-size: 50px;
 }
 .header nav button {
   color: #faf8fc;
-  background: #531010;
+  background: #000;
   border: 1px solid #111111;
   display: flex;
   border-radius: 5px;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 0px;
+  
 }
 
 .header nav button:hover {
@@ -192,7 +194,8 @@ body {
   margin: 0%;
   padding: 0%;
   display: flex;
-  background: #531010;
+  
+  
 }
 .footer {
   display: flex;

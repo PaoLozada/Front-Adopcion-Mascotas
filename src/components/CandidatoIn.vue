@@ -55,19 +55,35 @@
 
                         </div>
                     </div>
-                    <button type="submit">Enviar Informacón</button>
+                    
+                    <button type="submit" id= "enviar">Enviar Informacón</button>
                 </form>
           </div>
     </div>
 </template>
 
+
 <script>
+ var suma = 2;
 
 import axios from 'axios';
+import { onUnmounted } from '@vue/runtime-core';
 export default {
     name: "CandidatoIn",
-
-    
+    mounted(){
+            let respuesta1 = document.getElementById("respuestaUno").value;
+            let respuesta2 = document.getElementById("respuestaDos").value;
+            let respuesta3 = document.getElementById("respuestaTres").value;
+            let respuesta4 = document.getElementById("respuestaCuatro").value;
+            let respuesta5 = document.getElementById("respuestaCinco").value;
+            let respuesta6 = document.getElementById("respuestaSeis").value;
+            const btnEnviarResultado = document.querySelector("#enviar");
+            
+            btnEnviarResultado.addEventListener("click", function () {
+                this.suma = this.respuesta1+this.respuesta2+this.respuesta3+this.respuesta4+this.respuesta5+this.respuesta6;
+                console.log("La suma es"+this.suma)
+                });
+    },
     data: function(){
         return {
             candidatos: {
@@ -82,23 +98,14 @@ export default {
                 Tienes_Espacio: "", 
                 Tienes_Tiempo: "",
                 Recursos_Economicos: "",
-                Afrontar_Problemas: "",              
-                Resultado_Prueba:function(){
-                    let respuesta1 = document.getElementById("respuestaUno").value;
-                    let respuesta2 = document.getElementById("respuestaDos").value;
-                    let respuesta3 = document.getElementById("respuestaTres").value;
-                    let respuesta4 = document.getElementById("respuestaCuatro").value;
-                    let respuesta5 = document.getElementById("respuestaCinco").value;
-                    let respuesta6 = document.getElementById("respuestaSeis").value;
-                    let suma = respuesta1+respuesta2+respuesta3+respuesta4+respuesta5+respuesta6;
-                    return(suma)
-                }
+                Afrontar_Problemas: "", 
+                Resultado_Prueba: suma,
             }
         }
     },
+    
 
     methods: {
-
         
         
         processCandidatoIn: function(){
@@ -107,6 +114,7 @@ export default {
                 this.candidatos,  
                 {headers: {}}
             )
+            
                 .then((result) => {
                     let dataCandidatoIn = {
                         Numero_Identificacion: this.candidatos.Numero_Identificacion,
@@ -146,8 +154,11 @@ export default {
         width: 100%;
     
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
+        background-image: url("https://lyndirees.files.wordpress.com/2018/04/dog-nose-in-fence.jpg");
+        background-position: right;
+        background-size: contain;
     }
 
     .container_CandidatoIn_candidato{
@@ -158,9 +169,11 @@ export default {
         margin: 0;
         padding: 0%;
         display: flex;
+        
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: #000;
     }
     .DatosPersonales{
         display: flex;
@@ -241,7 +254,7 @@ export default {
         height: 30px;
 
         color: #E5E7E9;
-        background: #11743a;
+        background: #3a423e;
         border: 1px solid #E5E7E9;
 
         border-radius: 5px;
