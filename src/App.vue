@@ -152,6 +152,9 @@ body {
   justify-content: left;
   align-items: center;
 }
+.header img{
+  z-index: 1;
+}
 .header h1 {
   width: 60%;
   text-align: left;

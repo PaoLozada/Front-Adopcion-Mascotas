@@ -74,7 +74,7 @@ export default {
         padding: 0%;
         height: 100%;
         width: 100%;
-    
+        background-image: url("https://cdn.wallpapersafari.com/21/52/u8MYB1.png");
         display: flex;
         justify-content: center;
         align-items: center;

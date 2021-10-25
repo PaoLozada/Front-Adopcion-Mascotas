@@ -2,73 +2,75 @@
   <div class="verMascotas">
     
     <br />
-    <h2>Bienvenido a nuestra galería</h2>
+    <h2>En la mayoría de los casos, adoptar significa darle una segunda oportunidad a un animal que ha sufrido un proceso de abandono, y en ocasiones maltrato.
+       Acogerlo en tu casa de por vida y darle la estabilidad, los cuidados y el cariño que necesita va a ayudarlo a que recupere su confianza y su autoestima.</h2>
 
     <div class="contenedor_slider_M">
       <div class="slider_M" id="slider_M">
         <div class="slider_section_M">
           <img
-            src="https://i.ibb.co/jzKrR6J/Perrito1.jpg"
+            src="https://i.ibb.co/q0Q4z7q/Mandarina-11-a-os.jpg"
             alt=""
             class="slider_img_M"
           />
         </div>
         <div class="slider_section_M">
           <img
-            src="https://i.pinimg.com/originals/1d/15/4f/1d154fa83507b3a127433cffc9c76eaa.jpg"
+            src="https://i.ibb.co/fVWYD7r/Imagen1.png"
             alt=""
             class="slider_img_M"
           />
         </div>
         <div class="slider_section_M">
           <img
-            src="https://www.elcolombiano.com/blogs/dametupata/wp-content/uploads/2012/01/annie.jpg"
+            src="https://i.ibb.co/phZdLLc/Imagen2.png"
             alt=""
             class="slider_img_M"
           />
         </div>
         <div class="slider_section_M">
           <img
-            src="https://pbs.twimg.com/media/EZIIlt6XYAIZ27p.jpg"
+            src="https://i.ibb.co/xGfPCX2/pacha.jpg"
             alt=""
             class="slider_img_M"
           />
         </div>
         <div class="slider_section_M">
           <img
-            src="https://www.elcolombiano.com/blogs/dametupata/wp-content/uploads/2012/01/pelusa.jpg"
+            src="https://i.ibb.co/pPwRHv2/cocoa.jpg"
             alt=""
             class="slider_img_M"
           />
         </div>
         <div class="slider_section_M">
           <img
-            src="https://sumedico.blob.core.windows.net/images/2020/01/22/perroscriollos.jpg"
+            src="https://i.ibb.co/ZGRtj3C/tomy.jpg"
             alt=""
             class="slider_img_M"
           />
         </div>
         <div class="slider_section_M">
           <img
-            src="https://www.adopta.mx/wp-content/uploads/2013/05/criollo.jpg"
+            src="https://i.ibb.co/2s2KXD4/cloe.jpg"
             alt=""
             class="slider_img_M"
           />
         </div>
         <div class="slider_section_M">
           <img
-            src="https://cdn2.excelsior.com.mx/media/styles/image800x600/public/pictures/2017/06/01/1686179.jpg"
+            src="https://i.ibb.co/17SwwQ4/panter.jpg"
             alt=""
             class="slider_img_M"
           />
         </div>
         <div class="slider_section_M">
           <img
-            src="https://t1.ea.ltmcdn.com/es/images/2/4/4/cuidados_de_perros_cachorros_7442_600_square.jpg"
+            src="https://i.ibb.co/M7F1cJD/rouse.jpg"
             alt=""
             class="slider_img_M"
           />
         </div>
+        
       </div>
       <div class="slider_btn_M slider_btn--right_M" id="btn-right_M">&#62;</div>
       <div class="slider_btn_M slider_btn--left_M" id="btn-left_M">&#60;</div>
@@ -130,16 +132,22 @@ export default {
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
+  background-image: url("https://www.residenciaoasis.com/wp-content/uploads/2019/02/dog-2411762_960_720.jpg");
+  opacity: 75%;
+  background-size:cover;
+  align-items: center;
 }
 
 .verMascotas h2 {
   color: #000;
   font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   margin: 0%;
   padding: 20;
+  width: 50%;
 }
 
 .contenedor_slider_M {
@@ -148,17 +156,19 @@ export default {
   margin: auto;
   overflow: hidden;
   position: relative;
+  
+  
   }
 .slider_img_M {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit:inherit;
+  object-fit:scale-down;
   
 }
 .slider_M {
   display: flex;
-  height: 500px;
+  height: 530px;
   width: 900%;
   margin-left: -100%;
   

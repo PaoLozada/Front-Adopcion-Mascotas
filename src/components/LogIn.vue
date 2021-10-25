@@ -2,10 +2,8 @@
   <div class="logIn_user">
     <div class="contenedor_slider">
       <P>
-        En la mayoría de los casos, adoptar significa darle una segunda oportunidad
-         a un animal que ha sufrido un proceso de abandono, y en ocasiones maltrato. 
-         Acogerlo en tu casa de por vida y darle la estabilidad, los cuidados y el cariño que necesita
-          va a ayudarlo a que recupere su confianza y su autoestima.
+        Adopta, todos podemos dar vida. 
+         
       </P>
      
     </div>
@@ -87,7 +85,7 @@ export default {
   align-items: center;
   background-image: url("https://contenidosclick.es/wp-content/uploads/2018/04/por-qu-el-marketing-de-contenidos-es-esencial-si-tu-empresa-se-dedica-al-mundo-de-animales-y-veterinaria-1.jpg");
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+  opacity: 80%;
 }
 .contenedor_slider {
   max-width: 900px;
@@ -96,10 +94,10 @@ export default {
   overflow: hidden;
   position: relative;
   height: 100%;
-  filter:brightness(0.1);
+  
 }
 .logIn_user P{
-  font-size: 35PX;
+  font-size: 45PX;
   color: #fff;
   
 }
