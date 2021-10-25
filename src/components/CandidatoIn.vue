@@ -23,7 +23,7 @@
 
                             <label for="Edad">Edad</label><input required type="number" v-model="candidatos.Edad" >
                             <br>
-                            <span id="Resultado_Prueba"></span>
+                            
                      
                         </div>
                         <div class = "Complementarios">
@@ -66,7 +66,6 @@
 <script>
 
 import axios from 'axios';
-import { onUnmounted } from '@vue/runtime-core';
 export default {
    /* SumarAutomatico: function (valor) {
             var TotalSuma = 0;  
@@ -124,7 +123,7 @@ export default {
                         Tienes_Tiempo:this.candidatos.Tienes_Tiempo,
                         Recursos_Economicos:this.candidatos.Recursos_Economicos,
                         Afrontar_Problemas:this.candidatos.Afrontar_Problemas,
-                        Resultado_Prueba:this.candidatos.Resultado_Prueba,
+                        
                     }
                     
                     this.$emit('completedCandidatoIn', dataCandidatoIn)
