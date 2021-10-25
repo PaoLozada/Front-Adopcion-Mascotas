@@ -73,7 +73,7 @@ export default {
 
     methods: {
 
-        getData: async function () {
+        /*getData: async function () {
             let mascotaId = document.getElementById('Id_Mascota')
             axios.get(`https://mision-tic-bank-be.herokuapp.com/mascota/${mascotaId}/`)
                 .then((result) => {
@@ -87,7 +87,7 @@ export default {
                 });
 
 
-        },
+        },*/
         processMascotaIn: function(){
             axios.post(
                 "https://adopcionesmascotas.herokuapp.com/mascotas/", 
