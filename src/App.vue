@@ -159,6 +159,7 @@ body {
   background-color: rgb(255, 255, 255);
   display: flex;
   font-family: fantasy;
+  
 }
 
 .header nav {

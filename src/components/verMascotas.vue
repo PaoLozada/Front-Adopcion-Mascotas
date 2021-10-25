@@ -93,7 +93,7 @@ export default {
       slider.style.transition = "all 0.5s";
       setTimeout(function () {
         slider.style.transition = "none";
-        slider.insertAdjacentElement("beforeend", sliderSectionFirst);
+        slider.insertAdjacentElement('beforeend', sliderSectionFirst);
         slider.style.marginLeft = "-100%";
       }, 500);
     }
@@ -104,7 +104,7 @@ export default {
       slider.style.transition = "all 0.5s";
       setTimeout(function () {
         slider.style.transition = "none";
-        slider.insertAdjacentElement("afterbegin", sliderSectionLast);
+        slider.insertAdjacentElement('afterbegin', sliderSectionLast);
         slider.style.marginLeft = "-100%";
       }, 500);
     }
@@ -114,9 +114,9 @@ export default {
     btnLeft.addEventListener("click", function () {
       Prev_M();
     });
-    setInterval(function () {
+    /*setInterval(function () {
         Next_M();
-    }, 5000);
+    }, tiempo);*/
   },
 };
 </script>
@@ -144,10 +144,10 @@ export default {
 
 .contenedor_slider_M {
   max-width: 900px;
-  width: 100%;
+  width:90%;
   margin: auto;
   overflow: hidden;
-  position: cover;
+  position: relative;
   }
 .slider_img_M {
   display: block;
