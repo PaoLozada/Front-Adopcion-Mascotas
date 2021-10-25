@@ -2,20 +2,49 @@
     <div class="mascotaIn_user">
         
         <div class="container_MascotaIn_mascota">
-            <h2>Registrar Mascota</h2>
+            <div class="nuevaMascota">
+                <h2>Registrar Mascota</h2>
 
-            <form v-on:submit.prevent="processMascotaIn" >
-                <label for="Nombre">Nombre:</label><input type="text" v-model="mascotas.Nombre">
-                <br>
+                <form v-on:submit.prevent="processMascotaIn" >
+                    <label for="Nombre">Nombre:</label><input type="text" v-model="mascotas.Nombre">
+                    <br>
+                    
+                    <label for="Edad">Edad:</label><input type="number" v-model="mascotas.Edad">
+                    <br>
+                    
+                    <label for="Disponibilidad">Disponibilidad:</label><input type="Boolean" v-model="mascotas.Disponibilidad">
                 
-                <label for="Edad">Edad:</label><input type="number" v-model="mascotas.Edad">
-                <br>
-                
-                <label for="Disponibilidad">Disponibilidad:</label><input type="Boolean" v-model="mascotas.Disponibilidad">
-               
 
-                <button type="submit">Registrar</button>
-            </form>
+                    <button type="submit">Registrar</button>
+                </form>
+            </div>
+
+            <div class="modificacionesMascota">
+                <h2>Actualizar o Eliminar registro</h2>
+                <span id ="buscarMascota">
+                    <label for = "Id_Mascota">Ingrese el Id correspondiente a la mascota que desea actuallizar o eliminar:</label>
+                    <input type="text" v-model="mascotas.Id_Mascota" id="Id_Mascota">
+                    <button type="submit">Buscar</button>
+
+                </span>
+                <div class="actualizarEliminar">
+                    <form v-on:submit.prevent="actualizarMascotaIn" >
+                        
+
+                        <label for="Nombre">Nombre:</label><input type="text" v-model="mascotas.Nombre">
+                        <br>
+                        
+                        <label for="Edad">Edad:</label><input type="number" v-model="mascotas.Edad">
+                        <br>
+                        
+                        <label for="Disponibilidad">Disponibilidad:</label><input type="Boolean" v-model="mascotas.Disponibilidad">
+                        <div class="botones">
+                            <button type="submit">Actualizar</button>
+                            <button type="submit">Borrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -23,6 +52,7 @@
 </template>
 
 <script>
+import jwt_decode from "jwt-decode";
 import axios from 'axios';
 
 export default {
@@ -31,6 +61,7 @@ export default {
     data: function(){
         return {
             mascotas: {
+                Id_Mascota:"",
                 Nombre: "",
                 Edad: 0,
                 Disponibilidad: true
@@ -41,6 +72,22 @@ export default {
 
 
     methods: {
+
+        getData: async function () {
+            let mascotaId = document.getElementById('Id_Mascota')
+            axios.get(`https://mision-tic-bank-be.herokuapp.com/mascota/${mascotaId}/`)
+                .then((result) => {
+                    this.Nombre = result.data.Nombre;
+                    this.Edad = result.data.Edad;	
+                    this.Disponibilidad = result.data.Disponibilidad;
+                    console.log("Bien hecho")
+                    })
+                .catch(() => {
+                    this.$emit('logOut');
+                });
+
+
+        },
         processMascotaIn: function(){
             axios.post(
                 "https://adopcionesmascotas.herokuapp.com/mascotas/", 
@@ -63,7 +110,10 @@ export default {
                     
                 });
         }
-    }
+    },
+    /*created: async function(){
+        this.getData();
+    },*/
 }
 </script>
 
@@ -79,11 +129,51 @@ export default {
         justify-content: center;
         align-items: center;
     }
+    .container_MascotaIn_mascota{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-    .container_MascotaIn_mascota {
+
+    }
+    .modificacionesMascota span{
+        width: 40%;
+        
+    }
+    .modificacionesMascota{
+        margin-left:10%;
+        margin-right:5%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .botones{
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nuevaMascota {
         border: 3px solid  #ebe1e1;
         border-radius: 10px;
         width: 25%;
+        height: 60%;
+        margin-right:10%;
+        margin-left:5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .actualizarEliminar {
+        border: 3px solid  #ebe1e1;
+        border-radius: 10px;
+        width: 75%;
         height: 60%;
         
         display: flex;
@@ -91,6 +181,7 @@ export default {
         justify-content: center;
         align-items: center;
     }
+    
 
     .mascotaIn_user h2{
         color: #fdf7f8;
@@ -112,8 +203,32 @@ export default {
 
         border: 1px solid #f1eeee;
     }
+    .modificacionesMascota button{
+        width: 50%;
+        height: 40px;
 
-    .mascotaIn_user button{
+        color: #E5E7E9;
+        background: #188037;
+        border: 1px solid #E5E7E9;
+
+        border-radius: 5px;
+        padding: 10px 25px;
+        margin: 5px 20px 25px 20px;
+    }
+    .actualizarEliminar button{
+        width: 50%;
+        height: 40px;
+
+        color: #E5E7E9;
+        background: #188037;
+        border: 1px solid #E5E7E9;
+
+        border-radius: 5px;
+        padding: 10px 25px;
+        margin: 5px 20px 25px 20px;
+    }
+
+    .nuevaMascota button{
         width: 100%;
         height: 40px;
 
