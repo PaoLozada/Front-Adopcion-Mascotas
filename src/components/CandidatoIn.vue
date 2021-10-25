@@ -30,11 +30,11 @@
                         
                             <label for="Has_Tenido_Mascotas">Has tenido o tienes mascota</label>
                             
-                            <select  v-model="candidatos.Has_Tenido_Mascotas" required onchange="SumarAutomatico(this.value);"><option id="respuestaUno" value=10 >SI</option><option id="respuestaUno" value=5>NO</option ></select>
+                            <select  v-model="candidatos.Has_Tenido_Mascotas" required ><option id="respuestaUno" value=10 >SI</option><option id="respuestaUno" value=5>NO</option ></select>
                             <br>
                             <label for="Seras_Responsable">¿Podrás ser un adoptante responsable?</label>
                             
-                            <select v-model="candidatos.Seras_Responsable" required onchange="SumarAutomatico(this.value);"><option  id="respuestaDos" value=20 >SI</option><option id="respuestaDos" value=0>NO</option></select>
+                            <select v-model="candidatos.Seras_Responsable" required><option  id="respuestaDos" value=20 >SI</option><option id="respuestaDos" value=0>NO</option></select>
                             <br>                            
                             <label for="Tienes_Espacio">¿Tienes un espacio adecuado para tener una mascota?</label>
                             
@@ -68,17 +68,17 @@
 import axios from 'axios';
 import { onUnmounted } from '@vue/runtime-core';
 export default {
-    SumarAutomatico: function (valor) {
+   /* SumarAutomatico: function (valor) {
             var TotalSuma = 0;  
             valor = parseInt(valor); // Convertir a numero entero (número).
             TotalSuma = document.getElementById('Resultado_Prueba').innerHTML;
             // Valida y pone en cero "0".
             TotalSuma = (TotalSuma == null || TotalSuma == undefined || TotalSuma == "") ? 0 : TotalSuma;
-            /* Variable genrando la suma. */
+             Variable genrando la suma. 
             TotalSuma = (parseInt(TotalSuma) + parseInt(valor));
             // Escribir el resultado en una etiqueta "span".
             document.setElementById('Resultado_Prueba').innerHTML = TotalSuma;
-        } ,  
+        } ,*/
     name: "CandidatoIn",   
     data: function(){
         return {
