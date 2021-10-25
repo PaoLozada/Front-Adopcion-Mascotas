@@ -76,15 +76,17 @@
   </div>
 </template>
 <script>
+
 export default {
+    
   mounted() {
     const slider = document.querySelector("#slider_M");
     let sliderSection = document.querySelectorAll(".slider_section_M");
     let sliderSectionLast = sliderSection[sliderSection.length - 1];
-
     const btnLeft = document.querySelector("#btn-left_M");
     const btnRight = document.querySelector("#btn-right_M");
     slider.insertAdjacentElement('afterbegin', sliderSectionLast);
+    
     function Next_M() {
       let sliderSectionFirst = document.querySelectorAll(".slider_section_M")[0];
       slider.style.marginLeft = "-200%";
@@ -113,7 +115,7 @@ export default {
       Prev_M();
     });
     setInterval(function () {
-      Next_M();
+        Next_M();
     }, 5000);
   },
 };
@@ -145,19 +147,21 @@ export default {
   width: 100%;
   margin: auto;
   overflow: hidden;
-  position: relative;
+  position: cover;
   }
 .slider_img_M {
   display: block;
   width: 100%;
   height: 100%;
   object-fit:inherit;
+  
 }
 .slider_M {
   display: flex;
   height: 500px;
   width: 900%;
   margin-left: -100%;
+  
 }
 .slider_section_M{
   width: 100%;

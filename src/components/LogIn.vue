@@ -142,8 +142,8 @@ export default {
   width: 100%;
   height: 20px;
 
-  color: #01070e;
-  background: #8a8d8c;
+  color: #faf5f5;
+  background: #070707;
   border: 1px solid #e5e7e9;
 
   border-radius: 5px;
