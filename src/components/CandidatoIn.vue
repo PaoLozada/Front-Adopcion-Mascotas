@@ -102,8 +102,7 @@ export default {
     
 
     methods: {
-        
-        
+                
         processCandidatoIn: function(){
             axios.post(
                 "https://adopcionesmascotas.herokuapp.com/candidatos/", 
