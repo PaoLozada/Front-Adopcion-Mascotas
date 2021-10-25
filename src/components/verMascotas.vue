@@ -135,7 +135,7 @@ export default {
   flex-direction: row;
   text-align: center;
   background-image: url("https://www.residenciaoasis.com/wp-content/uploads/2019/02/dog-2411762_960_720.jpg");
-  opacity: 75%;
+ 
   background-size:cover;
   align-items: center;
 }
