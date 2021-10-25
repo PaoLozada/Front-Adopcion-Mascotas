@@ -85,7 +85,7 @@ export default {
   align-items: center;
   background-image: url("https://contenidosclick.es/wp-content/uploads/2018/04/por-qu-el-marketing-de-contenidos-es-esencial-si-tu-empresa-se-dedica-al-mundo-de-animales-y-veterinaria-1.jpg");
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  opacity: 80%;
+  
 }
 .contenedor_slider {
   max-width: 900px;
