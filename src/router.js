@@ -6,6 +6,9 @@ import MascotaIn from './components/MascotaIn.vue'
 import CandidatoIn from './components/CandidatoIn.vue'
 import Home from './components/Home.vue'
 import verMascotas from './components/verMascotas.vue'
+import Mascota from './components/Mascota.vue'
+import ListaCandidatos from './components//ListaCandidatos.vue'
+
 
 const routes = [
   {
@@ -32,6 +35,11 @@ const routes = [
   component: CandidatoIn
 },
 {
+  path: '/user/listaCandidatos',
+  name: 'listaCandidatos',
+  component: ListaCandidatos
+},
+{
   path: '/user/signUp',
   name: 'signUp',
   component: SignUp
@@ -40,6 +48,11 @@ const routes = [
   path: '/user/mascotaIn',
   name: 'mascotaIn',
   component: MascotaIn
+},
+{
+  path: '/user/mascota',
+  name: 'mascota',
+  component: Mascota
 },
 {
   path: '/user/vermascotas',

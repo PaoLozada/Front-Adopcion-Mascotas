@@ -81,10 +81,11 @@ export default {
         padding: 0%;
         height: 100%;
         width: 100%;
-    
+        background-image: url("https://www.gaceta.unam.mx/wp-content/uploads/2019/02/190225-Cult3-des-f1-Roma-perro-borras.jpg");
         display: flex;
         justify-content: center;
         align-items: center;
+        background-size:cover;
     }
 
     .container_signUp_user {

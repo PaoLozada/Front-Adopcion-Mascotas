@@ -8,10 +8,13 @@
       />
       <h1>ADOPTA UN CACHORRO</h1>
       <nav>
+        
         <button v-if="is_auth" v-on:click="logOut">Cerrar Sesión</button>
         <button v-if="!is_auth" v-on:click="loadLogIn">Principal</button>
         <button v-if="is_auth" v-on:click="loadSignUp">Registrar Usuario</button>
-        <button v-if="is_auth" v-on:click="loadMascotaIn">Administrador de Mascotas</button>
+        <button v-if="is_auth" v-on:click="loadMascotaIn">Ingresar Mascotas</button>
+        <button v-if="is_auth" v-on:click="loadMascota">Gestionar Mascotas</button>
+        <button v-if="is_auth" v-on:click="loadListaCandidatos">Gestionar Candidatos</button>
         <button v-if="!is_auth" v-on:click="loadverMascotas">Busco un hogar</button>
         <button v-if="!is_auth" v-on:click="loadCandidatoIn">Quiero Adoptar</button>
       </nav>
@@ -100,11 +103,18 @@ export default {
       this.$router.push({ name: "candidatoIn" });
       
     },
+    loadListaCandidatos: function () {
+      this.$router.push({ name: "listaCandidatos" });
+      
+    },
     loadHome: function () {
       this.$router.push({ name: "home" });
     },
     loadverMascotas: function () {
       this.$router.push({ name: "vermascotas" });
+    },
+    loadMascota: function () {
+      this.$router.push({ name: "mascota" });
     },
 
     completedLogIn: function (data) {

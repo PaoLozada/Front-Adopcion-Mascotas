@@ -23,6 +23,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image: url("https://madridsalud.es/wp-content/uploads/2016/06/animalescompania.jpg");
+        background-size:cover;
     }
     .greetings h1{
         font-size: 50px;
