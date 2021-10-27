@@ -2,7 +2,7 @@
     <div class="candidatoIn_user">
         <div class="container_CandidatoIn_candidato">
             <h2>Diligenciar Encuesta</h2>
-                <form v-on:submit.prevent="processCandidatoIn" >
+                <form v-on:submit.prevent="processCandidatoIn" id="Prueba1" >
                     <div class = "Encuesta">
                         <div class = "DatosPersonales">
                         
@@ -67,17 +67,7 @@
 
 import axios from 'axios';
 export default {
-   /* SumarAutomatico: function (valor) {
-            var TotalSuma = 0;  
-            valor = parseInt(valor); // Convertir a numero entero (número).
-            TotalSuma = document.getElementById('Resultado_Prueba').innerHTML;
-            // Valida y pone en cero "0".
-            TotalSuma = (TotalSuma == null || TotalSuma == undefined || TotalSuma == "") ? 0 : TotalSuma;
-             Variable genrando la suma. 
-            TotalSuma = (parseInt(TotalSuma) + parseInt(valor));
-            // Escribir el resultado en una etiqueta "span".
-            document.setElementById('Resultado_Prueba').innerHTML = TotalSuma;
-        } ,*/
+
     name: "CandidatoIn",   
     data: function(){
         return {
@@ -101,7 +91,7 @@ export default {
     
 
     methods: {
-                
+          
         processCandidatoIn: function(){
             axios.post(
                 "https://adopcionesmascotas.herokuapp.com/candidatos/", 
@@ -146,13 +136,14 @@ export default {
         padding: 0%;
         height: 100%;
         width: 100%;
-        
+        opacity: 85%;
         display: flex;
         justify-content: left;
         align-items: center;
         background-image: url("https://lyndirees.files.wordpress.com/2018/04/dog-nose-in-fence.jpg");
         background-position: right;
         background-size: contain;
+        
     }
 
     .container_CandidatoIn_candidato{

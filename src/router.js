@@ -54,11 +54,13 @@ const routes = [
   name: 'mascota',
   component: Mascota
 },
+
 {
   path: '/user/vermascotas',
   name: 'vermascotas',
   component: verMascotas
 },
+
 {
   path: '/user/home',
   name: "home",

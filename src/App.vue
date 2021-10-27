@@ -25,6 +25,7 @@
         v-on:completedLogIn="completedLogIn"
         v-on:completedSignUp="completedSignUp"
         v-on:completedMascotaIn="completedMascotaIn"
+        v-on:completedMascota="completedMascota"
         v-on:completedCandidatoIn="completedCandidatoIn"
         v-on:logOut="logOut"
       >
@@ -130,6 +131,9 @@ export default {
     },
     completedMascotaIn: function (data) {
       alert("Mascota registrada con éxito");
+    },
+    completedMascota: function (data) {
+      alert("Mascota actualizada con éxito");
     },
     completedCandidatoIn: function (data) {
       alert("Datos enviados con éxito");
