@@ -136,7 +136,7 @@ export default {
         padding: 0%;
         height: 100%;
         width: 100%;
-        opacity: 85%;
+        
         display: flex;
         justify-content: left;
         align-items: center;
