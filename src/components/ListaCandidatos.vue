@@ -135,4 +135,21 @@ export default {
   width: 1000px;
   background-color: rgb(247, 245, 250);
 }
+.candida tr:hover{
+  background-color: rgb(78, 150, 114);
+  color: #000;
+}
+.candida th{
+  background-color: rgb(17, 94, 49);
+  color: aliceblue;
+  padding: 1%;
+  border-bottom: solid 5px;
+  position: sticky;
+  top: 0;
+}
+.TablaC a{
+  font-size:x-small;
+  text-align: center;
+  
+}
 </style>

@@ -3,7 +3,7 @@
     <div class="container_Mascota">
       <h2>LISTADO MASCOTAS</h2>
       <div class="Tabla">
-        <table border="1">
+        <table border="5">
           <thead>
             <tr>
               <th>Id</th>
@@ -43,7 +43,7 @@ export default {
     return {
       mimascota: {
         Id_Mascota: 0,
-        Nombre: "",
+        nombre: "",
         Edad: 0,
         Disponibilidad: true,
       },
@@ -66,7 +66,11 @@ export default {
           this.mimascota = response.data;
         });
     },
-    btnEditar: function (id) {
+    btnEditar: async function (id) {
+      let nom = document.getElementById("nombre").textContent;
+      let eda = parseInt(document.getElementById("edad").textContent);
+      let dis = Boolean(padocument.getElementById("disponibilidad").textContent)
+
        axios
         .put(`https://adopcionesmascotas.herokuapp.com/mascotas/${id}/`,
                 this.mascota,  
@@ -75,9 +79,9 @@ export default {
                 .then((result) => {
                     
                     let dataMascota = {
-                        Nombre: this.mascota.Nombre,
-                        Edad: this.mascota.Edad,
-                        Disponibilidad: this.mascota.Disponibilidad
+                        Nombre:nom,
+                        Edad: eda,
+                        Disponibilidad:dis
                     }
                     
                     this.$emit('completedMascota', dataMascota)
@@ -99,8 +103,7 @@ export default {
   padding: 0%;
   height: 100%;
   width: 100%;
-  background-image: url("https://www.mascoteros.com/blog/wp-content/uploads/2017/08/blog_perro-feliz.jpg");
-  background-size: cover;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,13 +123,34 @@ export default {
   background-size: cover;
 }
 
+
 .Tabla {
   overflow: scroll;
   height: 400px;
   width: 500px;
+ 
 }
 .Tabla table {
   width: 500px;
   background-color: rgb(247, 245, 250);
+
+}
+
+.mascota tr:hover{
+  background-color: rgb(78, 150, 114);
+  color: #000;
+}
+.mascota th{
+  background-color: rgb(17, 94, 49);
+  color: aliceblue;
+  padding: 1%;
+  border-bottom: solid 5px;
+  position: sticky;
+  top: 0;
+}
+.Tabla a{
+  font-size:x-small;
+  text-align: center;
+  
 }
 </style>
