@@ -61,14 +61,10 @@ export default {
                         name: this.user.name,
                     }
                     
-                    this.$emit('completedSignUp', dataSignUp)
-                })
-                .catch((error) => {
-                    
-                                      
                     
                 });
-        }
+                this.$emit('completedSignUp');
+        },
     }
 }
 </script>

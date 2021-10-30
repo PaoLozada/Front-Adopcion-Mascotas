@@ -118,9 +118,11 @@ export default {
     },
     completedSignUp: function (data) {
       alert("Registro Exitoso");
+      this.verifyAuth();
     },
     completedMascotaIn: function (data) {
       alert("Mascota registrada con éxito");
+      this.verifyAuth();
     },
     completedMascota: function (data) {
       alert("Proceso exitoso!");
