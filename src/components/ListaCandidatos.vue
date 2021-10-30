@@ -38,11 +38,10 @@
 </template>
 
 <script>
-import jwt_decode from "jwt-decode";
 import axios from "axios";
 
 export default {
-  name: "listaCandidatos",
+  name: "ListaCandidatos",
 
   data() {
     return {
@@ -56,21 +55,29 @@ export default {
       },
     };
   },
-  async mounted() {
-    await axios
-      .get("https://adopcionesmascotas.herokuapp.com/candidatos/")
-      .then((response) => {
-        this.micandidato = response.data;
-      });
-  },
+  
 
   methods: {
+       Traer_Datos_C: async function () {
+       axios
+        .get(
+          "https://adopcionesmascotas.herokuapp.com/candidatos/",
+          this.mimascota,
+          { headers: {} }
+        )
+        .then((response) => {
+          this.micandidato = response.data;
+        
+        });
+    },
       btnBorrar: function (id) {
       axios
         .delete(`https://adopcionesmascotas.herokuapp.com/candidatos/${id}/`)
         .then((response) => {
-          this.micandidato = response.data;
+         
         });
+        this.$emit("completedListaCandidatos");
+        
     },
     btnEditar: function (id) {
        axios
@@ -98,7 +105,11 @@ export default {
                 });
     },
   },
-};
+  created: async function () {
+      this.Traer_Datos_C();
+     
+    }
+}
 </script>
 
 <style>

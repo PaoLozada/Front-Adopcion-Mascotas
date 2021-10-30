@@ -1,10 +1,10 @@
 <template>
   <div class="logIn_user">
     <div class="contenedor_slider">
-      <P>
-        Adopta, todos podemos dar vida. 
-         
-      </P>
+      <img 
+      src="https://i.ibb.co/9WLbc9B/Mensaje-Inicio1.png"
+      width="900"
+      />
      
     </div>
 
@@ -96,11 +96,10 @@ export default {
   height: 100%;
   
 }
-.logIn_user P{
-  font-size: 45PX;
-  color: #fff;
-  
+.contenedor_slider img{
+  margin-top: 10%;
 }
+
 
 .container_logIn_user {
   border: 3px solid #dde3e9;

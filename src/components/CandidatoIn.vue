@@ -2,7 +2,7 @@
     <div class="candidatoIn_user">
         <div class="container_CandidatoIn_candidato">
             <h2>Diligenciar Encuesta</h2>
-                <form v-on:submit.prevent="processCandidatoIn" id="Prueba1" >
+                <form v-on:submit.prevent="processCandidatoIn">
                     <div class = "Encuesta">
                         <div class = "DatosPersonales">
                         

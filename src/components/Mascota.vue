@@ -15,10 +15,12 @@
           </thead>
           <tbody>
             <tr v-for="mascot in mimascota" v-bind:key="mascot">
-              <td contenteditable id="id">{{mascot.Id_Mascota}}</td>
-              <td contenteditable id="nombre">{{mascot.Nombre}}</td>
-              <td contenteditable id="edad">{{mascot.Edad}}</td>
-              <td contenteditable id="disponibilidad">{{mascot.Disponibilidad}}</td>
+              <td contenteditable id="id">{{ mascot.Id_Mascota }}</td>
+              <td contenteditable id="nombre">{{ mascot.Nombre }}</td>
+              <td contenteditable id="edad">{{ mascot.Edad }}</td>
+              <td contenteditable id="disponibilidad">
+                {{ mascot.Disponibilidad }}
+              </td>
               <td>
                 <a href="" @click="btnEditar(mascot.Id_Mascota)">EDITAR</a>
               </td>
@@ -42,59 +44,66 @@ export default {
   data() {
     return {
       mimascota: {
-        Id_Mascota: 0,
-        nombre: "",
-        Edad: 0,
-        Disponibilidad: true,
+        Id_Mascota: "",
+        Nombre: "",
+        Edad: "",
+        Disponibilidad: "",
       },
     };
   },
-  async mounted() {
-    await axios
-      .get("https://adopcionesmascotas.herokuapp.com/mascotas/")
-      .then((response) => {
-        this.mimascota = response.data;
-      });
-  },
-
+ 
   methods: {
+    
+    Traer_Datos: async function () {
+       axios
+        .get(
+          "https://adopcionesmascotas.herokuapp.com/mascotas/",
+          this.mimascota,
+          { headers: {} }
+        )
+        .then((response) => {
+          this.mimascota = response.data;
+          
+        });
+    },
 
     btnBorrar: function (id) {
       axios
-        .delete(`https://adopcionesmascotas.herokuapp.com/mascotas/${id}/`)
+        .delete(
+          `https://adopcionesmascotas.herokuapp.com/mascotas/${id}/`)
         .then((response) => {
-          this.mimascota = response.data;
+          alert("borrando");
         });
-    },
-    btnEditar: async function (id) {
-      let nom = document.getElementById("nombre").textContent;
-      let eda = parseInt(document.getElementById("edad").textContent);
-      let dis = Boolean(padocument.getElementById("disponibilidad").textContent)
-
-       axios
-        .put(`https://adopcionesmascotas.herokuapp.com/mascotas/${id}/`,
-                this.mascota,  
-                {headers: {}}
-            )
-                .then((result) => {
-                    
-                    let dataMascota = {
-                        Nombre:nom,
-                        Edad: eda,
-                        Disponibilidad:dis
-                    }
-                    
-                    this.$emit('completedMascota', dataMascota)
-                })
-                .catch((error) => {
-                    console.log(error)
-                    alert("Error en el registro.");
-                    
-                    
-                });
-    },
+       this.$emit("completedMascota");
+     },
+    btnEditar: function (id) {
+      axios
+        .put(
+          `https://adopcionesmascotas.herokuapp.com/mascotas/${id}/`,this.mimascota, {headers:{}})
+          this.mimascota.Nombre= document.getElementById("nombre")
+          this.mimascota.Edad = document.getElementById("edad")
+          this.mimascota.Disponibilidad = document.getElementById("disponibilidad")
+        .then((response) => {
+           let datoMascota={
+            Nombre : this.mimascota.Nombre,
+            Edad : this.mimascota.Edad,
+            Disponibilidad : this.mimascota.Disponibilidad
+           
+           }
+            alert ("bien");
+           this.$emit("completedMascota", datoMascota);
+        })
+        
+       
+    }
+    
+    
   },
-};
+  created: async function () {
+      this.Traer_Datos();
+     
+    }
+}
 </script>
 
 <style>
@@ -103,7 +112,6 @@ export default {
   padding: 0%;
   height: 100%;
   width: 100%;
- 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,24 +131,21 @@ export default {
   background-size: cover;
 }
 
-
 .Tabla {
   overflow: scroll;
   height: 400px;
   width: 500px;
- 
 }
 .Tabla table {
   width: 500px;
   background-color: rgb(247, 245, 250);
-
 }
 
-.mascota tr:hover{
+.mascota tr:hover {
   background-color: rgb(78, 150, 114);
   color: #000;
 }
-.mascota th{
+.mascota th {
   background-color: rgb(17, 94, 49);
   color: aliceblue;
   padding: 1%;
@@ -148,9 +153,8 @@ export default {
   position: sticky;
   top: 0;
 }
-.Tabla a{
-  font-size:x-small;
+.Tabla a {
+  font-size: x-small;
   text-align: center;
-  
 }
 </style>

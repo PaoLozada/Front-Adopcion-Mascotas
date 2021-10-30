@@ -2,11 +2,10 @@
   <div id="app" class="app">
     <div class="header">
       <img
-        src="https://www.affinity-petcare.com/advance/sites/default/files/img/roulette/mini_puppy.png"
-        width="230"
-        height="230"
+        src="https://i.ibb.co/fkGNG40/Head3.png"
+        
       />
-      <h1>ADOPTA UN CACHORRO</h1>
+      
       <nav>
         
         <button v-if="is_auth" v-on:click="logOut">Cerrar Sesión</button>
@@ -27,6 +26,7 @@
         v-on:completedMascotaIn="completedMascotaIn"
         v-on:completedMascota="completedMascota"
         v-on:completedCandidatoIn="completedCandidatoIn"
+        v-on:completedListaCandidatos="completedListaCandidatos"
         v-on:logOut="logOut"
       >
       </router-view>
@@ -34,32 +34,22 @@
 
     <div class="footer">
       <div class="nombres_footer">
-        <h2>Grupo2 P51</h2>
-        <div class="contacto">
+        
           <img
-            src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
-            width="40"
-            height="40"
-          /><p>3118546547-30185479654</p>
+            src="https://i.ibb.co/R2gycrP/Whatsapp.png"
+            width="200"
+            height="100"            
+          />
           
-        </div>
+       
       </div>
       <div class="footer_img">
         <img
-          src="https://i.pinimg.com/originals/3b/21/c7/3b21c7efd2ba9c119fb8d361acacc31d.png"
-          width="40"
-          height="40"
+          src="https://i.ibb.co/tKH2CCL/Redes-Sociales.png"
+          width="180"
+          height="50"
         />
-        <img
-          src="https://img1.freepng.es/20171221/wgw/facebook-picture-5a3c060eccfa84.1675788915138831508396.jpg"
-          width="40"
-          height="40"
-        />
-        <img
-          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"
-          width="40"
-          height="40"
-        />
+        
       </div>
     </div>
   </div>
@@ -133,13 +123,17 @@ export default {
       alert("Mascota registrada con éxito");
     },
     completedMascota: function (data) {
-      alert("Mascota actualizada con éxito");
+      alert("Proceso exitoso!");
+      
     },
     completedCandidatoIn: function (data) {
       alert("Datos enviados con éxito");
       this.verifyAuth();
     },
-    
+    completedListaCandidatos: function (data) {
+      alert("Proceso exitoso!");
+     
+    },
   },
 
   created: function () {
@@ -160,8 +154,7 @@ body {
   height: 15vh;
   min-height: 100px;
   position: relative;
-  background-image: url("https://image.shutterstock.com/image-vector/dog-paw-seamless-pattern-vector-260nw-1386908894.jpg");
-  color: #000;
+  background-color: #000;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -177,6 +170,10 @@ body {
   display: flex;
   font-family: fantasy;
   
+}
+.header img{
+  width: 100%;
+  height:100%;
 }
 
 .header nav {
@@ -223,7 +220,7 @@ body {
   height: 10vh;
   min-height: 100px;
   flex-direction: row;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   color: #360b47;
 }
 .nombres_footer {
@@ -232,23 +229,7 @@ body {
   justify-content: left;
   flex-direction: column;
 }
-.contacto {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  justify-content: left;
-  padding: 0;
-  background-color: fffff;
-  margin: 0;
-}
-.footer h2 {
-  display: flex;
-  font-size: 30;
-  justify-content: left;
-  padding: 0;
-  background-color: rgb(255, 255, 255);
-  margin: 0;
-}
+
 .footer_img {
   display: flex;
   width: 50%;
@@ -262,9 +243,7 @@ body {
   margin: 20px;
   background-color: rgb(255, 255, 255);
 }
-.footer p{
-  background-color: rgb(255, 255, 255);
-}
+
 </style>
 
 

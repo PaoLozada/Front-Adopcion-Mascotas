@@ -1,9 +1,12 @@
 <template>
   <div class="verMascotas">
     
-    <br />
-    <h2>En la mayoría de los casos, adoptar significa darle una segunda oportunidad a un animal que ha sufrido un proceso de abandono, y en ocasiones maltrato.
-       Acogerlo en tu casa de por vida y darle la estabilidad, los cuidados y el cariño que necesita va a ayudarlo a que recupere su confianza y su autoestima.</h2>
+    <img
+            src="https://i.ibb.co/yY9Vdbn/Msj-Busco-Hogar1.png"
+            width="700"
+            
+
+          />
 
     <div class="contenedor_slider_M">
       <div class="slider_M" id="slider_M">
@@ -141,7 +144,7 @@ export default {
 }
 
 .verMascotas h2 {
-  color: #000;
+  color: #fff;
   font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
