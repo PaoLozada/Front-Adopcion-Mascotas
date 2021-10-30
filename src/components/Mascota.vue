@@ -67,7 +67,7 @@ export default {
         .delete(
           `https://adopcionesmascotas.herokuapp.com/mascotas/${id}/`)
         .then((response) => {
-          alert("borrando");
+         
         });
        this.$emit("completedMascota");
      },

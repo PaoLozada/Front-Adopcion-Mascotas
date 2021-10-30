@@ -64,9 +64,8 @@ export default {
                     this.$emit('completedSignUp', dataSignUp)
                 })
                 .catch((error) => {
-                    console.log(error)
-                    alert("Error en el registro.");
                     
+                                      
                     
                 });
         }
