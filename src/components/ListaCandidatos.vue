@@ -22,10 +22,6 @@
               <td contenteditable="">{{ candi.Numero_Contacto }}</td>
               <td contenteditable="">{{ candi.Direccion }}</td>
               <td contenteditable="">{{ candi.Email }}</td>
-              <td contenteditable="">{{ candi.Resultado_Prueba }}</td>
-              <td>
-                <a href="" @click="btnEditar(candi.Id_Candidato)">EDITAR</a>
-              </td>
               <td>
                 <a href="" @click="btnBorrar(candi.Id_Candidato)">ELIMINAR</a>
               </td>
@@ -79,7 +75,7 @@ export default {
         this.$emit("completedListaCandidatos");
         
     },
-    btnEditar: function (id) {
+    /**btnEditar: function (id) {
        axios
         .put(`https://adopcionesmascotas.herokuapp.com/mascotas/${id}/`,
                 this.candidato,  
@@ -103,7 +99,7 @@ export default {
                     
                     
                 });
-    },
+    },*/
   },
   created: async function () {
       this.Traer_Datos_C();

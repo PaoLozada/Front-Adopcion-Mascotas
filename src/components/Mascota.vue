@@ -18,12 +18,7 @@
               <td contenteditable id="id">{{ mascot.Id_Mascota }}</td>
               <td contenteditable id="nombre">{{ mascot.Nombre }}</td>
               <td contenteditable id="edad">{{ mascot.Edad }}</td>
-              <td contenteditable id="disponibilidad">
-                {{ mascot.Disponibilidad }}
-              </td>
-              <td>
-                <a href="" @click="btnEditar(mascot.Id_Mascota)">EDITAR</a>
-              </td>
+              <td contenteditable id="disponibilidad">{{ mascot.Disponibilidad }}</td>
               <td>
                 <a href="" @click="btnBorrar(mascot.Id_Mascota)">ELIMINAR</a>
               </td>
@@ -76,7 +71,7 @@ export default {
         });
        this.$emit("completedMascota");
      },
-    btnEditar: function (id) {
+    /**btnEditar: function (id) {
       axios
         .put(
           `https://adopcionesmascotas.herokuapp.com/mascotas/${id}/`,this.mimascota, {headers:{}})
@@ -95,7 +90,7 @@ export default {
         })
         
        
-    }
+    }*/
     
     
   },
